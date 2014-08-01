@@ -1,0 +1,4942 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!DOCTYPE TEI.2 SYSTEM "http://www.gutenberg.org/tei/marcello/0.4/dtd/pgtei.dtd">
+
+<TEI.2 lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+    <title>Representative Plays by American Dramatists: 1856-1911: <lb/>Rip van Winkle</title>
+                <author><name reg="Burke, Charles">Charles Burke</name></author>
+<editor><name reg="Moses, Montrose J.">Montrose J. Moses</name></editor>
+            </titleStmt>
+    <editionStmt>
+      <edition n="1">
+        First Project Gutenberg Edition
+      </edition>
+    </editionStmt>
+      <publicationStmt>
+                <publisher>Project Gutenberg</publisher>
+                <date>December 18, 2007</date>
+                <idno type="etext-no">27552</idno>
+      <availability>
+        <p>This eBook is for the use of anyone anywhere at no cost and
+        with almost no restrictions whatsoever. You may copy it, give it
+        away or re-use it under the terms of the Project Gutenberg
+        License online at www.gutenberg.org/license</p>
+      </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>(Project Gutenberg doesn't like to be specific
+                as to particular source edition.)</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language id="en"></language>
+      <language id="de"></language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date value="2008-12-18">December 18, 2008</date>
+      <respStmt><name rend="font-variant:normal">Produced by David Starner, Ralf Stephan,
+                and the Online Distributed Proofreading Team at
+                &lt;http://www.pgdp.net/&gt;.
+                Page-images available at
+                &lt;http://www.pgdp.net/projects/projectID4025f76b6c906/&gt;</name></respStmt>
+      <item>Project Gutenberg TEI edition 1</item>
+    </change>
+  </revisionDesc>
+  </teiHeader>
+
+<pgExtensions>
+  <pgStyleSheet>
+    .boxed           { x-class: boxed }
+    .shaded          { x-class: shaded }
+    .rules           { x-class: rules; rules: all }
+    .indent          { margin-left: 2 }
+    .indent(2)       { margin-left: 2 }
+    .indent(4)       { margin-left: 4 }
+    .indent(5)       { margin-left: 5 }
+    .indent(6)       { margin-left: 6 }
+    .indent(8)       { margin-left: 8 }
+    .indent(10)       { margin-left: 10 }
+    .indent(12)       { margin-left: 12 }
+    .indent(14)       { margin-left: 14 }
+    .indent(16)       { margin-left: 16 }
+    .indent(18)       { margin-left: 18 }
+    .center          { text-align: center }
+    .right           { margin-left: 16 }
+    .bold            { font-weight: bold }
+    .italic          { font-style: italic }
+    .gesperrt       { font-weight: bold }
+    .antiqua        { font-style: italic }
+    .small           { margin-left: 2 }
+    .smallcaps       { font-variant: small-caps }
+    name             { font-variant: small-caps }
+    speaker          { font-variant: small-caps; font-weight: normal }
+    .action          { margin-left: 10 }
+    figure           { text-align: center }
+    .w100            { }
+    .w75             { }
+    .w66             { }
+    .w50             { }
+    .w25             { }
+    @media pdf {
+      .w100            { width: 100% }
+      .w75             { width: 75% }
+      .w66             { width: 66% }
+      .w50             { width: 50% }
+      .w25             { width: 25% }
+      }
+  </pgStyleSheet>
+  <pgCharMap formats="txt.iso-8859-1">
+    <char id="U0x2014">
+      <charName>mdash</charName>
+      <desc>EM DASH</desc>
+      <mapping>--</mapping>
+    </char>
+    <char id="U0x2003">
+      <charName>emsp</charName>
+      <desc>EM SPACE</desc>
+      <mapping>&nbsp;&nbsp;</mapping>
+    </char>
+    <char id="U0x2026">
+      <charName>hellip</charName>
+      <desc>HORIZONTAL ELLIPSIS</desc>
+      <mapping>...</mapping>
+    </char>
+    <char id="U0x2044">
+      <charName>frasl</charName>
+      <desc>FRACTION SLASH</desc>
+      <mapping>/</mapping>
+    </char>
+  </pgCharMap>
+</pgExtensions>
+<text lang="en">
+  <front>
+    <div>
+      <divGen type="pgheader" />
+    </div>
+
+    <div>
+      <divGen type="encodingDesc" />
+    </div>
+
+    <div rend="page-break-before: right">
+      <divGen type="titlepage" />
+    </div>
+
+    <div rend="page-break-before: always">
+<pb n="23"/><anchor id="Pg23"/>
+      <pgIf output="txt">
+      <then><p>[Illustration: Charles Burke]</p></then>
+      <else><pgIf output="html">
+      <then><p><figure rend="center; w100" url="images/burke_small.png">
+      <figDesc></figDesc>
+      </figure></p></then>
+      <else><p><figure rend="center; w100" url="images/burke.png">
+      <figDesc></figDesc>
+      </figure></p></else></pgIf></else>
+   </pgIf>
+      <p rend="center; smallcaps">Charles Burke</p>
+    </div>
+
+    <div rend="page-break-before: always">
+      <index index="pdf" />
+      <head>Contents</head>
+      <divGen type="toc" />
+    </div>
+  </front>
+
+<body>
+<div rend="page-break-before: right">
+<pb n="024"/><anchor id="Pg024"/>
+<index index="toc" level1="Preface"/>
+<index index="pdf" level1="Preface"/>
+<head></head>
+<p>
+This is the history of the evolution of a play. Many hands
+were concerned in its growth, but its increase in scenic effect
+as well as in dialogue was a stage one, rather than prompted by
+literary fervour. No dramatization of Washington Irving's
+immortal story has approached the original in art of expression
+or in vividness of scene. But, if historical record can be believed,
+it is the actor, rather than the dramatist, who has vied with
+Irving in the vitality of characterization and in the romantic
+ideality of figure and speech. Some of our best comedians found
+attraction in the r�le, yet, though Charles Burke and James A.&nbsp;Herne
+are recalled, by those who remember back so far, for the
+very Dutch lifelikeness of the genial old drunkard, Joseph
+Jefferson overtops all memories by his classic portrayal.
+</p>
+
+<p>
+As far as literary value of the versions is concerned, it would
+be small loss if none of them were available. They form a
+mechanical frame-work as devoid of beauty as the skeleton
+scarecrow in Percy Mackaye's play, which was based on Hawthorne's
+<q>Feathertop</q> in <q>Mosses from an Old Manse.</q> It
+was only when the dry bones were clothed and breathed into by
+the actor's personality that the dramatizations lived. One
+can recall no plot that moves naturally in these versions; the
+transformation of the story into dialogue was mechanical, done
+by men to whom hack-work was the easiest thing in the world.
+Comparing the Kerr play with the Burke revision of it, when the
+text is strained for richness of phrase it might contain, only one
+line results, and is worth remembering; it is Burke's original
+contribution,&mdash;<q>Are we so soon forgot when we are gone?</q>
+</p>
+
+<p>
+The frequency with which <q>Rip Van Winkle</q> was dramatized
+would indicate that, very early in the nineteenth century,
+managers of the theatre were assiduous hunters after material
+which might be considered native. Certainly <hi rend='italic'>Rip</hi> takes his place
+with <hi rend='italic'>Deuteronomy Dutiful</hi>, <hi rend='italic'>Bardwell Slote</hi>, <hi rend='italic'>Solon Shingle</hi> and
+<hi rend='italic'>Davy Crockett</hi> as of the soil.
+</p>
+
+<p>
+Irving's <q>Sketch Book</q> was published in 1819, and, considering
+his vast interest in the stage, and the dramatic work done by
+<pb n="025"/><anchor id="Pg025"/>
+him in conjunction with John Howard Payne, it is unfortunate
+that he himself did not realize the dramatic possibilities of his
+story. There is no available record to show that he either
+approved or disapproved of the early dramatizations. But there
+is ample record to show that, with the beginning of its stage
+career, nine years after publication, <q>Rip</q> caught fire on the
+stage both in America and in London. Mr. James K.&nbsp;Hackett
+is authority for the statement that among his father's papers is
+a letter from Irving congratulating him upon having made so
+much from such scant material.
+</p>
+
+<p>
+The legendary character of Irving's sources, as traced in German
+folk-lore, does not come within the scope of this introduction.
+The first record of a play is Thomas Flynn's appearance as <hi rend='italic'>Rip</hi>
+in a dramatization made by an unnamed Albanian, at the South
+Pearl Street Theatre, Albany, N.&nbsp;Y., May&nbsp;26, 1828. It was
+given for the benefit of the actor's wife, and was called <q>Rip
+Van Winkle; or, The Spirits of the Catskill Mountains.</q> Notice
+of it may be found in the files of the Albany <hi rend='italic'>Argus</hi>. Winter, in
+his Life of Joseph Jefferson, reproduces the prologue. Part of
+the cast was as follows:
+</p>
+
+<lg>
+<l>Derrick Van Slous&mdash;Charles B. Parsons</l>
+<l>Knickerbocker&mdash;Moses S. Phillips</l>
+<l>Rip Van Winkle&mdash;Thomas Flynn</l>
+<l>Lowenna&mdash;Mrs. Flynn</l>
+<l>Alice&mdash;Mrs. Forbes</l>
+</lg>
+
+<p>
+Flynn was a great friend of the elder Booth, and Edwin bore
+Thomas as a middle name.
+</p>
+
+<p>
+In 1829, Charles B. Parsons was playing <q>Rip</q> in Cincinnati,
+Ohio, but no authorship is mentioned in connection with it,
+so it must be inferred that it was probably one of those stock
+products so characteristic of the early American theatre. Ludlow,
+in his <q>Dramatic Life,</q> records <q>Rip</q> in Louisville, Kentucky,
+November 21, 1831, and says that the Cincinnati performance
+occurred three years before, making it, therefore, in
+the dramatic season of 1828&ndash;29, this being Rip's <q>first representation
+West of the Alleghany Mountains, and, I believe, the first
+time on any stage.</q> Ludlow proceeds to state that, while in
+New York, in the summer of 1828, an old stage friend of his
+offered to sell him a manuscript version of <q>Rip,</q> which, on his
+recommendation, he proceeded to purchase <q>without reading
+<pb n="026"/><anchor id="Pg026"/>
+it.</q> And then the manager indicates how a character part is
+built to catch the interest of the audience, by the following bit
+of anecdote:
+</p>
+
+<quote rend="display">
+It passed off there [in Cincinnati] without appearing to create
+any interest more than a drama on any ordinary subject, with the
+exception of one speech, which was not the author's, but introduced
+without my previous knowledge by one of the actors in the piece.
+This actor was a young gentleman of education, who was performing
+on the stage under the name of Barry; but that was not his real
+name, and he was acting the part of <hi rend='italic'>Nicholas Vedder</hi> in this drama.
+In the scene where <hi rend='italic'>Rip</hi> returns to his native village after the twenty
+years of sleep that he had passed through, and finds the objects
+changed from what he remembered them,&mdash;among other things the
+sign over the door of the tavern where he used to take his drinks,&mdash;he
+enquires of <hi rend='italic'>Vedder</hi>, whom he had recognized, and to whom he
+had made himself known, who that sign was intended to represent,
+saying at the same time that the head of King George III used to
+hang there. In reply to him, instead of speaking the words of the
+author, Mr. Barry said, <q>Don't you know who that is? That's
+George Washington.</q> Then <hi rend='italic'>Rip</hi> said, <q>Who is George Vashingdoner?</q>
+To which Barry replied, using the language of General
+Henry (see his <q>Eulogy on Washington,</q> December 26, 1799),
+<q>He was first in war, first in peace, and first in the hearts of his
+countrymen!</q> This woke the Cincinnatians up.
+</quote>
+
+<p>
+Joseph Jefferson rejected this emendation later on, giving as
+his reason that, once an audience is caught in the flare of a
+patriotic emotion, it is difficult for an actor to draw them back
+effectively to the main currents of his story. We have Ludlow's
+statement to the effect that Burke's version was not unlike that
+produced by him as early as 1828&ndash;29, in the middle West.
+Could it have had any relationship to the manuscript by Kerr?
+</p>
+
+<p>
+In Philadelphia, at the Walnut Street Theatre, on October&nbsp;30,
+1829, William Chapman appeared as <hi rend='italic'>Rip</hi>, supported by Elizabeth
+and J. (probably John) Jefferson. Winter suggests that the
+dramatization may have been Ludlow's, or it may have been the
+first draft of Kerr's. Though it is generally conceded that the
+latter play was the one used by James H.&nbsp;Hackett, in a letter
+received by the Editor from Mr. James K.&nbsp;Hackett, it is suggested
+that his father made his own version, a statement not proved,
+but substantiated by Winter.
+</p>
+
+<p>
+The piece was given by Hackett, at the Park Theatre, New
+York, on August&nbsp;22, 1830, and Sol Smith, in his <q>Theatrical
+<pb n="027"/><anchor id="Pg027"/>
+Management in the West and South,</q> declares, <q>I should despair
+of finding a man or woman in an audience of five hundred, who
+could hear [his] utterance of five words in the second act, <q>But
+she was mine vrow</q> without experiencing some moisture in the
+eyes.</q> While the <hi rend='italic'>Galaxy</hi>, in a later year, for February, 1868,
+states: <q>His <hi rend='italic'>Rip Van Winkle</hi> is far nearer the ordinary conception
+of the good-for-nothing Dutchman than Mr. Jefferson's, whose
+performance is praised so much for its naturalness.</q> The statement,
+by Oliver Bell Bunce, is followed by this stricture against
+Jefferson: <q>Jefferson, indeed, is a good example of our modern
+art. His naturalness, his unaffected methods, his susceptible
+temperament, his subtleties of humour and pathos are appreciated
+and applauded, yet his want of breadth and tone sometimes
+renders his performance feeble and flavourless.</q> On the day before
+its presentment by Hackett, the New York <hi rend='italic'>Evening Post</hi>
+contained the following notice:
+</p>
+
+<quote rend="display">
+Park Theatre, Mr. Hackett's Benefit. Thursday, 22d inst. First
+night of Rip Van Winkle and second night of Down East.&mdash;Mr.
+Hackett has the pleasure of announcing to his friends and the
+public that his Benefit is fixed for Thursday next, 22d inst., when
+will be produced for the first time the new drama of <q>Rip Van
+Winkle; or, The Legend of the Kaatskill Mountains</q>&mdash;(founded
+on Washington Irving's celebrated tale called <q>Rip Van Winkle</q>)&mdash;with
+appropriate Dutch costumes; the River and Mountain scenery
+painted by Mr. Evers, all of which will be particularly described in
+the bills of the day.&mdash;Principal characters&mdash;<hi rend='italic'>Rip Van Winkle</hi>, Mr.
+Hackett; <hi rend='italic'>Knickerbocker</hi>, Mr. Placide; <hi rend='italic'>Vedder</hi>, Mr. Chapman; <hi rend='italic'>Van
+Slous</hi>, Mr. Blakely; <hi rend='italic'>Herman</hi>, Mr. Richings; <hi rend='italic'>Dame Rip Van Winkle</hi>,
+Mrs. Wheatley; <hi rend='italic'>Alice</hi>, Mrs. Hackett; <hi rend='italic'>Lowenna</hi>, Mrs. Wallack.
+</quote>
+
+<p>
+Durang refers to the dramatist who is reputed to have done
+the version for Mr. Hackett, as <q>Old Mr. Kerr,</q> an actor, who
+appeared in Philadelphia under the management of F. C.
+Wemyss. However much of an actor John Kerr was, he must
+have gained some small reputation as a playwright. In 1818,
+Duncombe issued Kerr's <q>Ancient Legends or Simple and
+Romantic Tales,</q> and at the Harvard Library, where there is
+a copy of this book, the catalogue gives Kerr's position in London
+at the time as Prompter of the Regency Theatre. He must have
+ventured, with a relative, into independent publishing, for there
+was issued, in 1826, by J.&nbsp;&amp; H.&nbsp;Kerr, the former's freely translated
+melodramatic romance, <q>The Monster and Magician; or,
+<pb n="028"/><anchor id="Pg028"/>
+The Fate of Frankenstein,</q> taken from the French of J. T.
+Merle and A. N. B�raud. He did constant translation, and it is
+interesting to note the similarity between his <q>The Wandering
+Boys! or, The Castle of Olival,</q> announced as an original
+comedy, and M. M. Noah's play of the same name.
+</p>
+
+<p>
+There is valuable material in possession of Mr. James K.&nbsp;Hackett
+for a much needed life of his father. This may throw light on his
+negotiations with Kerr; it may also detail more thoroughly than
+the records now show why it was that, when he went to England
+in 1832, he engaged Bayle Bernard to make a new draft of the
+piece, given in New York at the Park Theatre, September&nbsp;4,
+1833. It may have been because he saw, when he reached
+London, a version which Bernard had shaped for the Adelphi
+Theatre, 1831&ndash;32, when Yates, John Reeve, and J.&nbsp;B. Buckstone
+had played together. But I am inclined to think that, whatever
+the outlines of the piece as given by Hackett, it was his acting
+which constituted the chief creative part of the performance.
+Like Jefferson, he must have been largely responsible for the
+finished product.
+</p>
+
+<p>
+Hackett's success in dialect made him eager for any picturesque
+material which would exploit this ability. Obviously, local
+character was the best vehicle. That was his chief interest in
+encouraging American plays. Bayle Bernard had done writing
+for him before <q>Rip.</q> In 1831, J. K. Paulding's <q>The Lion of the
+West</q> had proven so successful, as to warrant Bernard's transferring
+the popular <hi rend='italic'>Col. Nimrod Wildfire</hi> to another play,
+<q>The Kentuckian.</q> Then, in 1837, Hackett corresponded with
+Washington Irving about dramatizing the <q>Knickerbocker
+History,</q> which plan was consummated by Bernard as <q>Three
+Dutch Governors,</q> even though Irving was not confident of
+results. Hackett went out of his way for such native material.
+Soon after his appearance as <hi rend='italic'>Rip</hi>, the following notice appeared
+in the New York <hi rend='italic'>Evening Post</hi>, for April&nbsp;24, 1830:
+</p>
+
+<quote rend="display">
+Prize Comedy.&mdash;The Subscriber, desirous of affording some
+pecuniary inducement for more frequent attempts at dramatizing
+the manners and peculiarities of our own country, and the numerous
+subjects and incidents connected with its history, hereby offers to
+the writer of the best Comedy in 3&nbsp;acts, in which a principal character
+shall be an original of this country, the sum of Two Hundred
+and Fifty Dollars&mdash;the decision to be made by a committee of competent
+literary gentlemen, whose names shall duly be made public.
+<pb n="029"/><anchor id="Pg029"/>
+The manuscripts to be sent to the address of the subscriber through
+the Post Office, before <hi rend='italic'>1st September, next,</hi> each accompanied with a
+letter communicating the address to which the author would desire
+his production returned, if unsuccessful, together with his <hi rend='italic'>name</hi> in
+a <hi rend='italic'>sealed enclosure</hi>, which will only be opened in the event of his
+obtaining the Prize.
+<lg>
+<l rend="indent(14)">Jas. H. Hackett,</l>
+<l rend="indent(16)">64 Reed Street, New York</l>
+</lg>
+</quote>
+
+<p>
+Many such prize contests were the fashion of the day.
+</p>
+
+<p>
+Mr. James K. Hackett, in reminiscence, writes: <q>My mother
+used to tell me that Joe Jefferson played the part like a German,
+whereas <hi rend='italic'>Rip</hi> was a North River Dutchman, and in those days
+dialects were very marked in our country. But my father soon
+became identified with the part of <hi rend='italic'>Falstaff</hi>, and he used to say,
+<q>Jefferson is a younger man than I, so I'll let him have <hi rend='italic'>Rip</hi>. I
+don't care to play against him</q>.</q>
+</p>
+
+<p>
+A stage version of the Irving story was made by one John H.
+Hewitt, of Baltimore, and during the season of 1833&ndash;34 was
+played in that city by William Isherwood. It was after this
+that Charles Burke (1822&ndash;1854) turned his attention to the play,
+and, as is shown in the text here reproduced, drew heavily upon
+Kerr. Winter says that he depended also upon the dramatic
+pieces used by Flynn and Parsons. The date of the first essayal
+of the part in New York was January&nbsp;7, 1850, at the New National
+Theatre. But, during the previous year, he went with the
+play to the Philadelphia Arch Street Theatre, where his half-brother,
+Joseph, appeared with him in the r�le of <hi rend='italic'>Seth</hi>. Durang,
+however, disagrees with this date, giving it under the heading
+of the <q>Summer Season of 1850 at the Arch Street Theatre,</q>
+and the specific time as August 19. In his short career Burke
+won an enviable position as an actor. <q>He had an eye and a
+face,</q> wrote Joe Jefferson, <q>that told their meaning before he
+spoke, a voice that seemed to come from the heart itself, penetrating&mdash;but
+melodious.</q> He was slender, emaciated, sensitive,&mdash;and
+full of lively response to things. Like all of the Jeffersons,
+he was a born comedian, and critics concede that W. E. Burton
+feared his rivalry. Between Burke and his half-brother, there
+was a profound attraction; they had <q>barn stormed</q> together,
+and through Burke's consideration it was that Joe was first
+encouraged and furthered in Philadelphia. Contrasting Burton
+and Burke, Jefferson wrote in his <q>Autobiography:</q>
+</p>
+
+
+<pb n="030"/><anchor id="Pg030"/>
+
+<quote rend="display">
+Burton coloured highly, and laid on the effects with a liberal
+brush, while Burke was subtle, incisive and refined. Burton's features
+were strong and heavy, and his figure was portly and ungainly.
+Burke was lithe and graceful. His face was plain, but wonderfully
+expressive. The versatility of this rare actor was remarkable, his
+pathos being quite as striking a feature as his comedy. &hellip; His
+dramatic effects sprung more from intuition than from study; and,
+as was said of Barton Booth, <q>the blind might have seen him in his
+voice, and the deaf have heard him in his visage.</q>
+</quote>
+
+<p>
+But the height of Jefferson's praise was reached when he said:
+<q>Charles Burke was to acting what Mendelssohn was to music.
+He did not have to work for his effects, as I do; he was not
+analytical, as I am. Whatever he did came to him naturally,
+as grass grows or water runs; it was not talent that informed his
+art, but genius.</q>
+</p>
+
+<p>
+Such was the comedian who next undertook the r�le of <hi rend='italic'>Rip</hi>.
+How often his own phrase, <q>Are we so soon forgot,</q> has been
+applied to the actor and his art! The only preservative we have
+of this art is either in individual expressions of opinion or else
+in contemporary criticism. Fortunately, John Sleeper Clarke,
+another estimable comedian of the Jefferson family, has left an
+impression of how Burke read that one famous line of his.
+He has said:
+</p>
+
+<quote rend="display">
+No other actor has ever disturbed the impression that the profound
+pathos of Burke's voice, face, and gesture created; it fell
+upon the senses like the culmination of all mortal despair, and the
+actor's figure, as the low, sweet tones died away, symbolized more
+the ruin of the representative of the race than the sufferings of an
+individual: his awful loss and loneliness seemed to clothe him with
+a supernatural dignity and grandeur which commanded the sympathy
+and awe of his audience.
+</quote>
+
+<p>
+Never, said Clarke, who often played <hi rend='italic'>Seth</hi> to Burke's <hi rend='italic'>Rip</hi>,
+was he disappointed in the poignant reading of that line&mdash;so
+tender, pathetic and simple that even the actors of his company
+were affected by it.
+</p>
+
+<p>
+However much these various attempts at dramatization may
+have served their theatrical purpose, they have all been supplanted
+in memory by the play as evolved by Jefferson and
+Boucicault, who began work upon it in 1861. The incident told
+by Jefferson of how he arrived by his decision to play <hi rend='italic'>Rip</hi>, as
+his father had done before him, is picturesque. One summer day,
+<pb n="031"/><anchor id="Pg031"/>
+in 1859, he lay in the loft of an old barn, reading the <q>Life and
+Letters of Washington Irving,</q> and his eye fell upon this passage:
+</p>
+
+<quote rend="display">
+September 30, 1858. Mr. Irving came in town, to remain a few
+days. In the evening went to Laura Keene's Theatre to see young
+Jefferson as <hi rend='italic'>Goldfinch</hi> in Holcroft's comedy, <q>The Road to Ruin.</q>
+ Thought Jefferson, the father, one of the best actors he had ever
+seen; and the son reminded him, in look, gesture, size, and <q>make,</q>
+ of the father. Had never seen the father in <hi rend='italic'>Goldfinch</hi>, but was
+delighted with the son.
+</quote>
+
+<p>
+This incident undoubtedly whetted the interest of Joseph
+Jefferson, and he set about preparing his version. He had
+played in his half-brother's, and had probably seen Hackett in
+Kerr's. All that was needed, therefore, was to evolve something
+which would be more ideal, more ample in opportunity for the
+exercise of his particular type of genius. So he turned to the
+haven at all times of theatrical need, Dion Boucicault, and talked
+over with him the ideas that were fulminating in his brain. Clark
+Davis has pointed out that in the Jefferson <q>Rip</q> the credits
+should thus be measured:
+</p>
+
+<lg>
+<l>Act I.&mdash;Burke + Jefferson + Boucicault ending.</l>
+<l>Act II.&mdash;Jefferson.</l>
+<l>Act III.&mdash;Burke + Jefferson + ending suggested by Shakespeare's</l>
+<l rend='indent(4)'><q>King Lear.</q></l>
+</lg>
+
+<p>
+But, however the credit is distributed, Jefferson alone made the
+play as it lives in the memories of those who saw it. It grew by
+what it fed on, by accretions of rich imagination. Often times,
+Jefferson was scored for his glorification of the drunkard. He and
+Boucicault were continually discussing how best to circumvent
+the disagreeable aspects of <hi rend='italic'>Rip's</hi> character. Even Winter
+and J. Rankin Towse are inclined to frown at the reprobate,
+especially by the side of Jefferson's interpretation of <hi rend='italic'>Bob Acres</hi>
+or of <hi rend='italic'>Caleb Plummer</hi>. There is no doubt that, in their collaboration,
+Boucicault and Jefferson had many arguments about
+<q>Rip.</q> Boucicault has left a record of the encounters:
+</p>
+
+<quote rend="display">
+<q>Let us return to 1865,</q> he wrote. <q>Jefferson was anxious to
+appear in London. All his pieces had been played there. The
+managers would not give him an appearance unless he could offer
+them a new play. He had a piece called <q>Rip Van Winkle</q>, but
+when submitted for their perusal, they rejected it. Still he was so
+<pb n="032"/><anchor id="Pg032"/>
+desirous of playing <hi rend='italic'>Rip</hi> that I took down Washington Irving's
+story and read it over. It was hopelessly undramatic. <q>Joe</q>, I said,
+<q>this old sot is not a pleasant figure. He lacks romance. I dare
+say you made a fine sketch of the old beast, but there is no interest
+in him. He may be picturesque, but he is not dramatic. I would
+prefer to start him in a play as a young scamp, thoughtless, gay,
+just such a curly-head, good-humoured fellow as all the village girls
+would love, and the children and dogs would run after</q>. Jefferson
+threw up his hands in despair. It was totally opposed to his artistic
+preconception. But I insisted, and he reluctantly conceded. Well,
+I wrote the play as he plays it now. It was not much of a literary
+production, and it was with some apology that it was handed to
+him. He read it, and when he met me, I said: <q>It is a poor thing,
+Joe</q>. <q>Well</q>, he replied, <q>it is good enough for me</q>. It was produced.
+Three or four weeks afterward he called on me, and his first words
+were: <q>You were right about making <hi rend='italic'>Rip</hi> a young man. Now I
+could not conceive and play him in any other shape</q>.</q>
+</quote>
+
+<p>
+When finished, the manuscript was read to Ben Webster, the
+manager of the Haymarket Theatre, London, and to Charles
+Reade, the collaborator, with Boucicault, in so many plays.
+Then the company heard it, after which Jefferson proceeded to
+study it, literally living and breathing the part. Many are the
+humourous records of the play as preserved in the Jefferson
+<q>Autobiography</q> and in the three books on Jefferson by Winter
+Frances Wilson and Euphemia Jefferson.
+</p>
+
+<p>
+On the evening of September 4, 1865, at the London Adelphi,
+the play was given. Accounts of current impressions are extant
+by Pascoe and Oxenford. It was not seen in New York until
+September&nbsp;3, 1866, when it began a run at the Olympic, and it did
+not reach Boston until May&nbsp;3, 1869. From the very first, it was
+destined to be Jefferson's most popular r�le. His royalties, as
+time progressed, were fabulous, or rather his profits, for actor,
+manager, and author were all rolled into one. He deserted a large
+repertory of parts as the years passed and his strength declined.
+But to the very end he never deserted <hi rend='italic'>Rip</hi>. At his death the
+play passed to his son, Thomas. The Jefferson version has been
+published with an interpretative introduction by him.
+</p>
+
+<p>
+When it was first given, the play was scored for the apparent
+padding of the piece in order to keep Jefferson longer on the
+stage. The supernatural elements could not hoodwink the
+critics, but, as Jefferson added humanity to the part, and created
+a poetic, lovable character, the play was greatly strengthened.
+<pb n="033"/><anchor id="Pg033"/>
+In fact Jefferson was the play. His was a classic embodiment,
+preserved in its essential details in contemporary criticism and
+vivid pictures.
+</p>
+</div>
+
+<div rend="page-break-before: right">
+<pb n="034"/><anchor id="Pg034"/>
+<index index="toc" level1="Announcement"/>
+<index index="pdf" level1="Announcement"/>
+<head></head>
+      <pgIf output="txt">
+      <then><eg>[Illustration:
+THEATRE
+-------
+FOR THE BENEFIT
+
+OF
+
+Mrs. SHARPE
+AND HER LAST APPEARANCE, prior to her departure for
+the South--on which occasion
+
+Mr. Hackett
+Has kindly consented to perform.
+--------------------------------
+On Wednesday Evening, Oct. 18
+
+Will be produced, 1st time in America, the Tragedy in 5 acts, of
+
+THE BRIDAL
+
+_As altered from a Tragedy of Beaumont &amp; Fletcher, by_ WILLIAM
+MACREADY _and_ SHERIDAN KNOWLES, _and now performing
+in London with great applause._
+
+
+Areanus,   (King of Rhodes)               Mr. Richings
+Melantius                                     Fredericks
+Amintor                                       Mason
+Lysippus   (brother to the King)              Wells
+Diphibus,  (brother of Melantius &amp; Evadne)    Nexsom
+Cleon,                                        Garland
+Caltranex, (Kinsman o to Aspasia,)            Wheatley
+Archas     (Keeper of the Prison)             Bedford
+Strato,                                       Isherwood
+Diagoras,                                     Johnson
+Assassin                                      King
+Dion                                          Gallott
+
+Nobles, Guards, &amp;c
+
+EVADNE    (Wife of Amintor )                MRS. SHARPE
+Aspasia   (formerly betrothed to Amintor)   Mrs. Richardson
+Antiphole,                                       Pritchard
+Olympias                                         Conway
+Dula                                             Durie
+Cleanthe                                    Miss Bedford
+
+Ladies, &amp;c. &amp;c.
+--------------------------------------------------------
+
+--IN ACT 2--
+
+A GREEK PAS DE DEUX,
+
+WILL BE DANCED
+
+By MR. &amp; MRS. CHECKENI.
+
+--------------------------------------------------------
+
+After which, the Drama of
+
+_Rip Van Winkle!_
+
+_Or--A Legend of the Catskill Mountains._]</eg></then>
+      <else><p><figure rend="page-break-before: always; center; w100" url="images/announce1.png">
+      <figDesc></figDesc>
+      </figure></p></else>
+   </pgIf>
+
+<pb n="035"/><anchor id="Pg035"/>
+
+      <pgIf output="txt">
+      <then><eg>[Illustration:
+Characters in Act First--or 1763.
+
+_RIP VAN WINKLE, a North River Dutchman_           _Mr. HACKETT_
+Derrick Van Tassel, the Burgomaster                 Mr. Clarke
+Nichols Vedder, a Farmer,                               Isherwood
+Brom Van Brunt, a Schoolmaster,                         Fisher
+Rory Van Clump, Landlord of George 3d Tavern,           Wells
+Henderick Hudson, Capt. of the Spirit Crew of the Dutch
+discovery ship 'Half Moon'                          Hayden
+Richard Juet, his Mate,
+Dirk Quackenboss,
+  Dutchmen, Spirit Crew, &amp;c.
+Dame Van Winkle, Rip's Scolding Wife,              Mrs. Wheatley
+Alice, Rip's Sister,                                    Chippindale
+
+Between the first and Second Acts a period of Twenty Years
+is supposed to elapse.
+
+RIP VAN WINKLE, the Sleeper, now a Stranger
+  in his Native Village,                            MR. HACKETT
+Herman Van Tassel, Son of the late Burgomaster
+     Contracted to Gertrude,                        Mr. Wheatley
+Abram Higginbottomm, late Brom Van Brunt                Fisher
+Bradford, in love with Gertrude                         Richings
+Perseverance Peashell, Landlord of Washington Hotel     Povey
+Hiram      } Yankee Wits                                King
+Ebeneezer, }                                            Wells
+Young Rip Van Winkle,                                   Bancker
+District Judge                                          Nexsom
+Gertrude Van Winkle, contracted to Herman       Miss E. Turnbull
+Dame Van Winkle, formerly Alice Van Winkle              Chippindale
+
+---------------------------------------------
+*A Double Hornpipe by Mast &amp; Miss Wells.*
+---------------------------------------------
+
+To conclude with, The FIRST ACT of the Farce of the
+
+_Kentuckian_
+
+Or--A Trip to New-York.
+
+*Nimrod Wildfire,*                          *Mr. Hackett*
+Mr. Freeman                                  Mr. Clarke
+Percival,                                        Wheatley
+Pompey,                                          Povey
+Tradesman,                                       Gallott
+Mrs. Luminary,                              Mrs. Wheatley
+Mrs. Freeman                                     Vernon
+Mary,                                            Durie
+Servant,                                         Conway
+Caroline                                    Miss Turnbull
+
+--------------------------------------------
+_Thursday--Third Night of the Engagement of_
+
+*MISS TREE*
+
+LOM,
+                                        Miss Tree
+
+And, ANIMAL MAGNETISM.
+
+----------------------------------------------------
+Friday and Saturday Evenings MISS TREE will perform.
+----------------------------------------------------
+]</eg></then>
+      <else><p><figure rend="page-break-before: always; center; w100" url="images/announce2.png">
+      <figDesc></figDesc>
+      </figure></p></else>
+   </pgIf>
+</div>
+
+<pb n="036"/><anchor id="Pg036"/>
+<div rend="page-break-before: right">
+<index index="toc" />
+<index index="pdf" />
+<head rend="font-size: xx-large; center">
+RIP VAN WINKLE
+</head>
+
+<p rend="center">
+<hi rend='italic'>A LEGEND OF THE CATSKILLS</hi>
+</p>
+
+<p rend="center; font-size: 50%">
+A ROMANTIC DRAMA IN TWO ACTS
+</p>
+
+<p rend="center; font-size: xx-small">
+ADAPTED FROM WASHINGTON IRVING'S
+SKETCH BOOK
+</p>
+
+<p rend="center">
+<hi rend='italic'>By</hi>&nbsp;&nbsp;<name rend="smallcaps; font-size: xx-large">Charles Burke</name>
+</p>
+
+<div rend="page-break-before: right">
+<index index="toc" level1="Introduction"/>
+<index index="pdf" level1="Introduction"/>
+<p>
+[It is common knowledge that <q>Rip Van Winkle,</q> as a play,
+was a general mixture of several versions when it finally reached
+the hands of Joseph Jefferson. From Kerr to Burke, from Burke
+to Boucicault, from Boucicault to Jefferson was the progress.
+The changes made by Burke in the Kerr version are so interesting,
+and the similarities are so close, that the Editor has thought
+it might be useful to make an annotated comparison of the two.
+This has been done, with the result that the reader is given two
+plays in one. The title-page of the Kerr acting edition runs as
+follows: <q>Rip Van Winkle; A Legend of Sleepy Hollow. A
+Romantic Drama in Two Acts. Adapted from Washington Irving's
+Sketch-Book by John Kerr, Author of <q>Therese</q>, <q>Presumptive
+Guilt</q>, <q>Wandering Boys</q>, <q>Michael and Christine</q>, <q>Drench'd
+and Dried</q>, <q>Robert Bruce</q>, &amp;c., &amp;c. With Some Alterations, by
+Thomas Hailes Lacy. Theatrical Publisher. London.</q> The
+Burke version, used here as a basis, follows the acting text, without
+stage positions, published by Samuel French. An opera on
+the subject of <q>Rip Van Winkle,</q> the libretto written by Wainwright,
+was presented at Niblo's Garden, New York, by the
+Pyne and Harrison Troupe, Thursday, September&nbsp;27, 1855.
+There was given, during the season of 1919&ndash;20, by the Chicago
+Opera Association, <q>Rip Van Winkle: A Folk Opera,</q> with
+music by Reginald de Kovan and libretto by Percy Mackaye,
+the score to be published by G.&nbsp;Schirmer. New York.]
+</p>
+</div>
+
+<pb n="037"/><anchor id="Pg037"/>
+
+<div rend="page-break-before: always">
+<index index="toc" />
+<index index="pdf" />
+<head rend="center">
+CAST OF CHARACTERS
+</head>
+
+<p>
+First performed at the West London Theatre (under the management
+of Mr. Beverley).
+</p>
+
+<p rend="center">
+RIP VAN WINKLE
+</p>
+
+<p rend="center">
+A Legend of the Sleepy Hollow.
+</p>
+
+<p rend="center">
+CHARACTERS
+</p>
+
+<p rend="center">
+ACT I. 1763
+</p>
+
+<table rend="latexcolumns: 'lll';
+               tblcolumns: 'lll'">
+<row>
+<cell></cell>
+<cell><hi rend='italic'>Original</hi></cell>
+<cell><hi rend='italic'>Walnut St. <lb/>Philadelphia</hi></cell>
+</row>
+
+<row>
+<cell><name>Deidrich Van Slaus</name></cell>
+<cell>Mr. Sanger</cell>
+<cell>Mr. Porter</cell>
+</row>
+<row>
+<cell><name>Herman</name> (his Son)</cell>
+<cell>" N. Norton</cell>
+<cell>" Read</cell>
+</row>
+<row>
+<cell><name>Knickerbocker</name> (a Schoolmaster)</cell>
+<cell>" S. Beverley</cell>
+<cell>" J. Jefferson</cell>
+</row>
+<row>
+<cell><name>Rory Van Clump</name> (a Landlord)</cell>
+<cell>" C. Osborne</cell>
+<cell>" Greene</cell>
+</row>
+<row>
+<cell></cell>
+<cell></cell>
+<cell>" Chapman</cell>
+</row>
+<row>
+<cell><name>Rip Van Winkle</name></cell>
+<cell>" <name>H. Beverley</name></cell>
+<cell>" Hackett</cell>
+</row>
+<row>
+<cell><name>Nicholas Vedder</name></cell>
+<cell>" T. Santer</cell>
+<cell>" Sefton</cell>
+</row>
+<row>
+<cell><name>Peter Clausen</name></cell>
+<cell>" Cogan</cell>
+<cell>" James</cell>
+</row>
+<row>
+<cell><name>Gustave</name></cell>
+<cell>Master Kerr</cell>
+<cell>Miss Anderson</cell>
+</row>
+<row>
+<cell><name>Dame Van Winkle</name></cell>
+<cell>Mrs. Porter</cell>
+<cell>Mrs. B. Stickney</cell>
+</row>
+<row>
+<cell><name>Alice</name></cell>
+<cell>" W. Hall</cell>
+<cell>Mrs. S. Chapman</cell>
+</row>
+<row>
+<cell><name>Lowena</name></cell>
+<cell>Miss Kerr</cell>
+<cell>Miss Eberle</cell>
+</row>
+<row>
+<cell><name>Imp of the Mountain</name></cell>
+<cell>W. Oxberry, Jun.</cell>
+<cell>W. Wells</cell>
+</row>
+</table>
+<lg rend="indent(10)">
+<l>The Spectre Crew of the Mountains, Farmers, &amp;c.</l>
+<l>A Lapse of Twenty Years occurs between the Acts.</l>
+</lg>
+
+<p rend="center">
+Act II. 1783.
+</p>
+
+<table rend="latexcolumns: 'lll';
+               tblcolumns: 'lll'">
+<row>
+<cell><name>Herman Van Slaus</name></cell>
+<cell>Mr. H. Norton</cell>
+<cell>Mr. Read</cell>
+</row>
+<row>
+<cell><name>Seth Kilderkin</name></cell>
+<cell>&mdash;&mdash;</cell>
+<cell>&mdash;&mdash;</cell>
+</row>
+<row>
+<cell><name>Knickerbocker</name></cell>
+<cell>" S. Beverley</cell>
+<cell>" J. Jefferson</cell>
+</row>
+<row>
+<cell><name>Nicholas Vedder</name></cell>
+<cell>" T. Santer</cell>
+<cell>" Sefton</cell>
+</row>
+<row>
+<cell><name>Gustave</name></cell>
+<cell>&mdash;&mdash;</cell>
+<cell>&mdash;&mdash;</cell>
+</row>
+<row>
+<cell><name>Young Rip</name></cell>
+<cell>&mdash;&mdash;</cell>
+<cell>&mdash;&mdash;</cell>
+</row>
+<row>
+<cell></cell>
+<cell></cell>
+<cell>" Chapman</cell>
+</row>
+<row>
+<cell><name>Rip Van Winkle</name></cell>
+<cell>" H. Beverley</cell>
+<cell>" Hackett</cell>
+</row>
+<row>
+<cell><name>Alice Van Knickerbocker</name></cell>
+<cell>Mrs. W. Hall</cell>
+<cell>Mrs. S. Chapman</cell>
+</row>
+<row>
+<cell><name>Lowena</name></cell>
+<cell>Miss Kerr</cell>
+<cell>Miss Eberle</cell>
+</row>
+<row>
+<cell><name>Jacintha</name></cell>
+<cell>&mdash;&mdash;</cell>
+<cell>&mdash;&mdash;</cell>
+</row>
+</table>
+
+<pb n="038"/><anchor id="Pg038"/>
+
+<p rend="center">
+CAST OF THE CHARACTERS
+</p>
+
+<table rend="latexcolumns: 'lll';
+               tblcolumns: 'lll'">
+<row>
+<cell></cell>
+<cell rend="italic">Bowery<lb/>Theatre<lb/>New York</cell>
+<cell rend="italic">Arch Street<lb/>Theatre<lb/>Philadelphia</cell>
+</row>
+<row>
+<cell>ACT I&mdash;1763</cell>
+<cell>1857</cell>
+<cell>1850</cell>
+</row>
+<row>
+<cell><name>Rip Van Winkle</name> (a Dutchman)</cell>
+<cell>Mr. F. S. Chanfrau</cell>
+<cell>Mr. C. Burke</cell>
+</row>
+<row>
+<cell><name>Knickerbocker</name> (a Schoolmaster)</cell>
+<cell>" Whiting</cell>
+<cell>" J. L. Baker</cell>
+</row>
+<row>
+<cell><name>Derric Van Slaus</name> (the Burgomaster)</cell>
+<cell>" Ferdon</cell>
+<cell>" Marsh</cell>
+</row>
+<row>
+<cell><name>Herman Van Slaus</name> (his son).</cell>
+<cell>" Blake</cell>
+<cell>" Henkins</cell>
+</row>
+<row>
+<cell><name>Nicholas Vedder</name> (friend to Rip)</cell>
+<cell>" Baker</cell>
+<cell>&mdash;&mdash;</cell>
+</row>
+<row>
+<cell><name>Clausen</name></cell>
+<cell>" Edson</cell>
+<cell>" Bradford</cell>
+</row>
+<row>
+<cell><name>Rory VanClump</name> (a Landlord)</cell>
+<cell>" Foster</cell>
+<cell>" Worrell</cell>
+</row>
+<row>
+<cell><name>Gustaffe</name></cell>
+<cell>" F. Hodge</cell>
+<cell>" Mortimore</cell>
+</row>
+<row>
+<cell><name>Dame Van Winkle</name></cell>
+<cell>Mrs. Axtel</cell>
+<cell>Mrs. Hughs</cell>
+</row>
+<row>
+<cell><name>Alice</name></cell>
+<cell>" Fitzgerald</cell>
+<cell>Miss Wood</cell>
+</row>
+<row>
+<cell><name>Lorrenna</name></cell>
+<cell>Miss Wallis</cell>
+<cell>" E. Jones</cell>
+</row>
+<row>
+<cell><name>Swaggrino</name> }   Spirits of the    {</cell>
+<cell>Mr. Williams</cell>
+<cell>Mr. Brown</cell>
+</row>
+<row>
+<cell><name>Gauderkin</name> }     Catskills       {</cell>
+<cell>" Barry</cell>
+<cell>" Ray</cell>
+</row>
+<row>
+<cell><name>Icken</name>     }                     {</cell>
+<cell>" Bennett</cell>
+<cell>" Ross</cell>
+</row>
+</table>
+<lg>
+<l>ACT II.&mdash;1783.&mdash;<hi rend='italic'>A lapse of twenty years is supposed to occur between</hi></l>
+<l rend='indent(16)'><hi rend='italic'>the First and Second Acts.</hi></l>
+</lg>
+
+<table rend="latexcolumns: 'lll';
+               tblcolumns: 'lll'">
+<row>
+<cell><name>Rip Van Winkle</name> (the dreamer)</cell>
+<cell>Mr. F. S. Chanfrau</cell>
+<cell>Mr. C. Burke</cell>
+</row>
+<row>
+<cell><name>Herman Van Slaus</name></cell>
+<cell>" Blake</cell>
+<cell>" Henkins</cell>
+</row>
+<row>
+<cell><name>Seth Slough</name></cell>
+<cell>" Denham</cell>
+<cell>" J. Jefferson</cell>
+</row>
+<row>
+<cell><name>Knickerbocker</name></cell>
+<cell>" Whiting</cell>
+<cell>" J. L. Baker</cell>
+</row>
+<row>
+<cell><name>The Judge</name></cell>
+<cell>" Pelham</cell>
+<cell>" Anderson</cell>
+</row>
+<row>
+<cell><name>Gustaffe</name></cell>
+<cell>" F. Hodges</cell>
+<cell>" Mortimore</cell>
+</row>
+<row>
+<cell><name>Rip Van Winkle, Jr.</name></cell>
+<cell>" Thompson</cell>
+<cell>" Stanley</cell>
+</row>
+<row>
+<cell><name>First Villager</name></cell>
+<cell>" Bennett</cell>
+<cell>" Thomas</cell>
+</row>
+<row>
+<cell><name>Second Villager</name></cell>
+<cell>" Alkins</cell>
+<cell>" Sims</cell>
+</row>
+<row>
+<cell><name>Alice Knickerbocker</name></cell>
+<cell>Mrs. Fitzgerald</cell>
+<cell>Miss Wood</cell>
+</row>
+<row>
+<cell><name>Lorrenna</name></cell>
+<cell>" J. R. Scott</cell>
+<cell>" E. Jones</cell>
+</row>
+</table>
+
+<table rend="latexcolumns: 'lll';
+               tblcolumns: 'lll'">
+<row>
+<cell></cell>
+<cell rend="italic">Broadway<lb/>Theatre<lb/>New York</cell>
+<cell rend="italic">Metropolitan<lb/>Theatre<lb/>Buffalo</cell>
+</row>
+<row>
+<cell>ACT I&mdash;1763</cell>
+<cell>1855</cell>
+<cell>1857</cell>
+</row>
+<row>
+<cell><name>Rip Van Winkle</name> (a Dutchman)</cell>
+<cell>Mr. Hackett</cell>
+<cell>Mr. F. S. Chanfrau</cell>
+</row>
+<row>
+<cell><name>Knickerbocker</name> (a Schoolmaster)</cell>
+<cell>" Norton</cell>
+<cell>" B. G. Rogers</cell>
+</row>
+<row>
+<cell><name>Derric Van Slaus</name> (the Burgomaster)</cell>
+<cell>" McDonall</cell>
+<cell>" Ross</cell>
+</row>
+<row>
+<cell><name>Herman Van Slaus</name> (his son)</cell>
+<cell>&mdash;&mdash;</cell>
+<cell>" Ferrell</cell>
+</row>
+<row>
+<cell><name>Nicholas Vedder</name> (friend to Rip)</cell>
+<cell>" Anderson</cell>
+<cell>" Stephens</cell>
+</row>
+<row>
+<cell><name>Clausen</name></cell>
+<cell>&mdash;&mdash;</cell>
+<cell>" Leak</cell>
+</row>
+<row>
+<cell><name>Rory VanClump</name> (a Landlord)</cell>
+<cell>" Price</cell>
+<cell>" Boynton</cell>
+</row>
+<row>
+<cell><name>Gustaffe</name></cell>
+<cell>Miss Wood</cell>
+<cell>" Kent</cell>
+</row>
+<row>
+<cell><name>Dame Van Winkle</name></cell>
+<cell>Mrs. Bellamy</cell>
+<cell>Miss Wells</cell>
+</row>
+<row>
+<cell><name>Alice</name></cell>
+<cell>" Sylvester</cell>
+<cell>Mrs. C. Henri</cell>
+</row>
+<row>
+<cell><name>Lorrenna</name></cell>
+<cell>Miss Henry</cell>
+<cell>La Petite Sarah</cell>
+</row>
+<row>
+<cell><name>Swaggrino</name> } Spirits of the    {</cell>
+<cell>Mr. Lamy</cell>
+<cell>Mr. Henri</cell>
+</row>
+<row>
+<cell><name>Gauderkin</name> }    Catskills      {</cell>
+<cell>&mdash;&mdash;</cell>
+<cell>" McAuley</cell>
+</row>
+<row>
+<cell><name>Icken</name>     }                   {</cell>
+<cell>&mdash;&mdash;</cell>
+<cell>" Ferris</cell>
+</row>
+</table>
+<lg>
+<l>ACT II.&mdash;1783.&mdash;<hi rend='italic'>A lapse of twenty years is supposed to occur between</hi></l>
+<l rend='indent(16)'><hi rend='italic'>the First and Second Acts.</hi></l>
+</lg>
+
+<table rend="latexcolumns: 'lll';
+               tblcolumns: 'lll'">
+<row>
+<cell><name>Rip Van Winkle</name> (the dreamer)</cell>
+<cell>Mr. Hackett</cell>
+<cell>Mr. F. S. Chanfrau</cell>
+</row>
+<row>
+<cell><name>Herman Van Slaus</name></cell>
+<cell>" Warwick</cell>
+<cell>" Ferrell</cell>
+</row>
+<row>
+<cell><name>Seth Slough</name></cell>
+<cell>" Whiting</cell>
+<cell>" Stephens</cell>
+</row>
+<row>
+<cell><name>Knickerbocker</name></cell>
+<cell>" Norton</cell>
+<cell>" B.G. Rogers</cell>
+</row>
+<row>
+<cell><name>The Judge</name></cell>
+<cell>&mdash;&mdash;</cell>
+<cell>" Spackman</cell>
+</row>
+<row>
+<cell><name>Gustaffe</name></cell>
+<cell>" Levere</cell>
+<cell>" Kent</cell>
+</row>
+<row>
+<cell><name>Rip Van Winkle, Jr.</name></cell>
+<cell>" Ryder</cell>
+<cell>" McAuley</cell>
+</row>
+<row>
+<cell><name>First Villager</name></cell>
+<cell>" Brown</cell>
+<cell>" Ferris</cell>
+</row>
+<row>
+<cell><name>Second Villager</name></cell>
+<cell>" Hoffman</cell>
+<cell>" Judson</cell>
+</row>
+<row>
+<cell><name>Alice Knickerbocker</name></cell>
+<cell>Mrs. Sylvester</cell>
+<cell>Mrs. C. Henri</cell>
+</row>
+<row>
+<cell><name>Lorrenna</name></cell>
+<cell>" Allen</cell>
+<cell>Miss Tyson</cell>
+</row>
+</table>
+</div>
+
+<pb n="039"/><anchor id="Pg039"/>
+
+<div rend="page-break-before: always">
+<index index="toc" />
+<index index="pdf" />
+<head>
+COSTUME
+</head>
+
+<p>
+<name>Rip</name>&mdash;<hi rend='italic'>First dress:</hi>&mdash;A deerskin coat and belt, full brown breeches,
+deerskin gaiters, cap. <hi rend='italic'>Second dress:</hi>&mdash;Same, but much worn
+and ragged.
+</p>
+
+<p>
+<name>Knickerbocker</name>&mdash;<hi rend='italic'>First dress:</hi>&mdash;Brown square cut coat, vest and
+breeches, shoes and buckles. <hi rend='italic'>Second dress:</hi>&mdash;Black coat,
+breeches, hose, &amp;c.
+</p>
+
+<p>
+<name>Derric Van Slaus</name>&mdash;Square cut coat, full breeches, black silk
+hose, shoes and buckles&mdash;<hi rend='italic'>powder</hi>.
+</p>
+
+<p>
+<name>Herman</name>&mdash;<hi rend='italic'>First dress:</hi>&mdash;Ibid. <hi rend='italic'>Second dress:</hi>&mdash;Black frock coat,
+tight pants, boots and tassels.
+</p>
+
+<lg>
+<l><name>Vedder</name>  }</l>
+<l><name>Clausen</name> }  Dark square cut coats, vests, breeches, &amp;c.</l>
+<l><name>Rory</name>    }</l>
+</lg>
+
+<p>
+<name>Gustaffe</name>&mdash;Blue jacket, white pants, shoes.
+</p>
+
+<p>
+<name>Seth Slough</name>&mdash;Gray coat, striped vest, large gray pants.
+</p>
+
+<p>
+<name>Judge</name>&mdash;Full suit of black.
+</p>
+
+<p>
+<name>Young Rip</name>&mdash;A dress similar to Rip's first dress.
+</p>
+
+<p>
+<name>Dame</name>&mdash;Short gown and quilted petticoat, cap.
+</p>
+
+<p>
+<name>Alice</name>&mdash;<hi rend='italic'>First dress:</hi>&mdash;Bodice, with half skirt, figured petticoat.
+<hi rend='italic'>Second dress:</hi>&mdash;Brown satin bodice and skirt, &amp;c.
+</p>
+
+<p>
+<name>Lorrenna</name>, Act 1&mdash;A child.
+</p>
+
+<p>
+<name>Lorrenna</name>, Act 2&mdash;White muslin dress, black ribbon belt, &amp;c.
+</p>
+</div>
+
+<pb n="040"/><anchor id="Pg040"/>
+
+<div  rend="page-break-before: always;">
+<index index="toc" />
+<index index="pdf" />
+<head rend="center">
+RIP VAN WINKLE
+</head>
+
+<div>
+<index index="toc" />
+<index index="pdf" />
+<head rend="center">
+ACT I.
+</head>
+
+<div id="A1S1">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE I.
+</head>
+<p>
+<hi rend='italic'>A Village.&mdash;House, with a sign of</hi> <q>George III.</q>&mdash;<hi rend='italic'>Two
+or three tables.</hi>&mdash;<hi rend="smallcaps">Villagers</hi> <hi rend='italic'>discovered, smoking</hi>. <name>Vedder,
+Knickerbocker, Rory, Clausen</name> <hi rend='italic'>at table. Chorus at rise of
+curtain.</hi>
+</p>
+
+<p rend="center">
+CHORUS.
+</p>
+
+<lg rend="indent(10)">
+<l>In our native land, where flows the Rhine,</l>
+<l rend='indent(2)'>In infancy we culled the vine:</l>
+<l>Although we toiled with patient care,</l>
+<l rend='indent(2)'>But poor and scanty was our fare.</l>
+</lg>
+
+<p rend="center">
+SOLO.
+</p>
+
+<lg rend="indent(10)">
+<l>Till tempting waves, with anxious toil,</l>
+<l rend='indent(2)'>We landed on Columbia's soil;</l>
+<l>Now plenty, all our cares repay,</l>
+<l rend='indent(2)'>So laugh and dance the hours away.</l>
+</lg>
+
+<p rend="center">
+CHORUS.
+</p>
+
+<lg rend="indent(10)">
+<l>Now plenty, all our cares repay,</l>
+<l rend='indent(2)'>So laugh and dance the hours away;</l>
+<l>Ha, ha, ha! Ha, ha, ha!</l>
+<l rend='indent(2)'>So laugh, ha, ha! and dance the hours away.</l>
+</lg>
+
+<sp>
+<speaker>Vedder.</speaker><p> Neighbour Clausen, on your way hither, saw you
+anything of our friend, Rip Van Winkle? Where there's a cup of
+good liquor to be shared, he's sure to be on hand&mdash;a thirsty soul.</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Truly, the man that turns up his nose at
+good liquor is a fool, as we Dutchmen have it; but cut no jokes
+on Rip; remember, I'm soon to be a member of his family: and
+any insult offered to him, I shall resent in the singular number,
+and satisfaction must follow, as the Frenchmen have it.
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>So, Knickerbocker, you are really determined to
+marry Rip's sister, the pretty Alice?
+</p>
+</sp>
+
+
+<pb n="041"/><anchor id="Pg041"/>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Yes, determined to be a prisoner in Hymen's
+chains, as the lovers have it. I've got Rip's consent, I've got
+Alice's consent, and I've got my own consent.
+</p>
+</sp>
+
+<sp>
+<speaker>Clausen.</speaker><p>But have you got the dame's consent, eh?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>There I'm dished and done up brown;
+would you believe it? she calls me a long, scraggy, outlandish
+animal, and that I look like two deal boards glued together!
+</p>
+</sp>
+
+<sp>
+<speaker>Rory.</speaker><p>Here comes Alice, and with her, Rip's daughter.
+</p>
+</sp>
+
+<p rend="action">
+<hi rend="italic">Enter</hi> <name>Alice</name>, <hi rend="italic">with</hi> <name>Lorrenna.</name> [<name>Lowena</name>]<note place="end"> So spelled in the Kerr version.</note>
+</p>
+
+<sp>
+<speaker>Alice.</speaker><p>Come along, loiterer! Woe betide us when we get
+home, for having tarried so long! What will the dame say?
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Well, it's not my fault, for you have been up and
+down the lane a dozen times, looking for the schoolmaster,
+Knickerbocker.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Hold your tongue, Miss, it's no such thing.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>You know you love him.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>How do you know that, Miss Pert?
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>I can see it; and seeing is believing, they say.
+Oh, you're monstrous jealous of him, you know you are.
+</p>
+</sp>
+
+<lg rend="action">
+<l><name>Knickerbocker</name> <hi rend='italic'>advances.</hi></l>
+</lg>
+
+<sp>
+<speaker>Alice.</speaker><p>Jealous! I, jealous of him? No, indeed, I never wish
+to see his ugly face again.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Say not so, sweet blossom of the valley, for
+in that case I shall shoot myself in despair.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Oh, don't think of such a thing, for then your ghost
+might haunt me.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>And I'm sure you would rather have him than his
+ghost, wouldn't you, Alice?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>That's a very smart child. But Alice, sweet
+Alice, can't I drop in this evening, when the old folks are out of
+the way?
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Not for the world; if the dame were to find you in the
+house, I don't know what would happen.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Don't you know, Alice, mammy always goes out
+for an hour in the evening, to see her neighbour, Dame Wrigrim;
+now, if you [<hi rend='italic'>To</hi> <name>Knickerbocker.</name>] come at eight o'clock, and
+throw some gravel at the window, there's no knowing but you
+might see Alice.
+</p>
+</sp>
+<pb n="042"/><anchor id="Pg042"/>
+<sp>
+<speaker>Knickerbocker.</speaker><p>That's an uncommon clever girl; but, Alice,
+I'm determined to turn over a new leaf with Dame Van Winkle;
+the next time I see her, I'll pluck up [my] courage and say to her&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Without.</hi>] Alice! Alice! odds bodikins and pins, but
+I'll give it you when I catch you.
+</p>
+</sp>
+
+<lg rend="action">
+<l><hi rend='italic'>The</hi> <name>Villagers</name> <hi rend='italic'>exit.</hi></l>
+</lg>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Run, Alice, run!
+</p>
+</sp>
+
+<p rend="action">
+[<name>Alice, Lorrenna</name> <hi rend='italic'>and</hi> <name>Knickerbocker</name> <hi rend='italic'>run to right.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Without.</hi>] Alice!
+</p>
+</sp>
+<p rend="action">
+[<name>Alice, Lorenna</name> <hi rend='italic'>and</hi> <name>Knickerbocker</name> <hi rend='italic'>exeunt hastily</hi>.
+</p>
+
+<sp>
+<speaker>Rory.</speaker><p>Egad! the dame's tongue is a perfect scarecrow!
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>The sound of her voice sets them running just as if
+she were one of the mountain spirits, of whom we hear so much
+talk. [But where the deuce can Rip be all this while? [<name>Rip</name> <hi rend='italic'>sings
+without.</hi>] But talk of the devil and his imps appear.]<note place="end">
+Assigned to <name>Clausen</name> in the Kerr version. Preceding this bracket,
+<lg>
+<l><name>Clausen.</name> Well, she is a tartar, there's no denying that.</l>
+<l><name>Vedder.</name> Not but if she were my wife instead of Rip's. I warrant I'd soon tame her.
+</l>
+<l><name>Clausen.</name> Not you! But where the deuce ...</l>
+</lg></note>
+</p>
+</sp>
+
+<lg rend="action">
+<l><hi rend='italic'>Enter</hi> <name>Rip Van Winkle</name>, <hi rend='italic'>with gun, game-bag, &amp;c.</hi></l>
+</lg>
+
+<sp>
+<speaker>Rip.</speaker><p>Rip, Rip, wass is dis for a business. You are a mix nootze
+unt dat is a fact. Now, I started for de mountains dis mornin',
+determined to fill my bag mit game, but I met Von Brunt, de one-eyed
+sergeant&mdash;[comma see hah, unt brandy-wine hapben my
+neiber friend];<note place="end">Not in the Kerr version.</note>
+well, I couldn't refuse to take a glass mit him,
+unt den I tooks anoder glass, unt den I took so much as a dozen,
+[do]<note place="end"><q>but</q> in K.</note>
+I drink no more as a bottle; he drink no more as I&mdash;he
+got so top heavy, I rolled him in de hedge to sleep a leetle, for his
+one eye got so crooked, he never could have seed his way straight;
+den I goes to de mountain, [do]<note place="end"><q>but as</q> in K.</note>
+I see double, [d&mdash;&mdash;d]<note place="end"><q>not a</q> in K.</note> a bird
+could I shooted. But I stops now, I drinks no more; if anybody
+ask me to drink, I'll say to dem&mdash;[<name>Vedder</name> <hi rend='italic'>comes down, and offers
+cup to him.</hi>]&mdash;here is your [go-to-hell],<note place="end"><q>Goot-hell</q> in K.</note> and your family's [go-to-hell],
+and may you all live long and [prosper].<note place="end">
+<q>brosber</q> in K. In this speech, there is a variation in dialect as <q>v</q> for <q>w</q>
+in such words as <q>was,</q> and <q>v</q> for <q>o</q> in such a word as
+<q>one.</q></note> [<hi rend='italic'>Drinks.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>Why, neighbour Rip, where have you been all day?
+<pb n="043"/><anchor id="Pg043"/>
+We feared some of the [Elfin]<note place="end">Not in K.</note> goblins of the Catskill had caught
+you.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Ha, ha! I never see no ghosts, though I've fought mit
+<hi rend='italic'>spirits</hi> in my time, ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>And they always throw you, eh? ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Dat's a fact! Ha, ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>But, Rip, where have you been?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Oh, very hard at work<note place="end">"vork" in K.</note>&mdash;very busy; dere is nothing
+slipped [fun my fingers as was come at abe.]<note place="end"><q>froo my fingers as vas comeatable,</q> in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rory.</speaker><p>They appear to have slipped through your game bag
+though, for <corr sic="its">it's</corr> full of emptiness.&mdash;Ha, ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Ho, ho, ho! cut no jokes at my <hi rend='italic'>bag</hi> or I'll gib you de sack.
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>Come, Rip, sit down, take a pipe and a glass and
+make yourself comfortable.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[Nine, nine&mdash;ech con neiched&mdash;]<note place="end"><q>Nein, nein</q> in K.</note> it behoves a man to
+look after his interest unt not drink all de while, I shall den be
+able to manage&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>Your wife, Rip?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Manage mine [frow]<note place="end"><q>frau</q>
+in K.</note>? Can you fly to de moon on a
+[paper]<note place="end"><q>baber</q> in K.</note> kite? Can you drink all de beer and brandy-wine at
+one gulp? when you can do dat, mine goot [im himmel]<note place="end"><q>freund, den</q> in K.</note> you
+can manage mine [frow]. [<hi rend='italic'>All laugh.</hi><note place="end">
+Here is given in Kerr, the following:
+<lg>
+<l><name>Vedder.</name> I wish she was my wife, I'd manage her.</l>
+<l><name>Rip.</name> And I wish she vas your vife too, or anybody's vife, so long as she vasn't
+mine vife.</l></lg></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rory.</speaker><p>Take one glass, Rip.<note place="end"><name>Rory's</name> speech, in K., begins with <q>Come.</q></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>No, I won't touch him.
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>Come, come, lay hold.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Now I'll be [d&mdash;&mdash;d fun]<note place="end"><q>stewed vhen</q> in K.</note> I does.
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>Well, if you won't.  [<hi rend='italic'>All go to table but</hi> <name>Rip.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Dere is [a]<note place="end"><q>der</q> in K.</note> drinks, dere is [a] drinks; I have [conquered]<note place="end"><q>gonguered</q> in K.</note>
+temptation at last. Bravo resolution! bravo resolution;
+resolution, you shall have one glass for dat.<note place="end">In K., variation only in dialect form.</note>  [<hi rend='italic'>Goes to table.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Omnes.</speaker><p>Ha, ha, ha!
+</p>
+</sp>
+
+<pb n="044"/><anchor id="Pg044"/>
+
+<sp>
+<speaker>Rory.</speaker><p>Here, Rip, here's a glass at your service, and as for the
+contents I'll warrant it genuine and no mistake. [<hi rend='italic'>Gives</hi> <name>Rip</name><hi rend='italic'> a cup.</hi>
+</p>
+</sp>
+<sp>
+<speaker>Rip.</speaker><p>Rory, here is your [go-to-hell],<note place="end"><q>goot-hell</q> in K.</note> unt your family's [go-to-hell],
+un may you all live long unt [prosper].<note place="end"><q>brosber</q> in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rory.</speaker><p>Come, Rip, give us a stave.
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder.</speaker><p>Yes, yes, Rip, a stave, for the old dame will be after
+you soon and then we will all have to make a clearance.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Oh, tunner wasser! [won't]<note place="end"><q>vont</q>
+in K.  The present edition does not attempt to indicate such slight
+variations and differences.</note> my old woman skin me when
+I get home.
+</p>
+</sp>
+
+<sp>
+<speaker>Vedder and Rory.</speaker><p>Ha, ha, ha! come, the song, the song.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Well, here is Rip Van Winkle's warning to all single
+fellows.
+</p>
+</sp>
+
+<p rend="center">
+SONG.&mdash;<name>Rip.</name>
+</p>
+
+<lg rend="indent(10)">
+<l>List, my friends, to caution's voice,</l>
+<l rend='indent(2)'>Ere de marriage knot you tie;</l>
+<l>It is [the devil],<note place="end"><q>der tyfil</q> in K.</note> mit shrews to splice,</l>
+<l rend='indent(2)'>Dat nobody can deny, deny,</l>
+<l rend='indent(6)'>Dat nobody can deny.</l>
+</lg>
+
+<p rend="indent(18)">
+<hi rend='italic'>Chorus.</hi>&mdash;That nobody can deny, &amp;c.
+</p>
+
+<lg rend="indent(10)">
+<l>When a wife to rule once wishes,</l>
+<l rend='indent(2)'>Mit poor spouse 'tis all my eye,</l>
+<l>I'm [d&mdash;&mdash;d]<note place="end"><q>stewed</q> in K.</note> if she don't wear de breeches,</l>
+<l rend='indent(2)'>Dat nobody can deny, deny,</l>
+<l rend='indent(6)'>Dat nobody can deny.</l>
+</lg>
+
+<p rend="indent(18)">
+<hi rend='italic'>Chorus.</hi>&mdash;That nobody can deny, &amp;c.
+</p>
+
+<lg rend="indent(10)">
+<l>Yet dere is a charm about dem,</l>
+<l rend='indent(2)'>Do dere voices are so high</l>
+<l>We can't do mit'em,                        [<hi rend='italic'>Pause.</hi></l>
+<l rend='indent(2)'>Nor we can't do mit-out 'em,</l>
+<l rend='indent(4)'>Dat nobody can deny, deny,</l>
+<l rend='indent(6)'>Dat nobody can deny.</l>
+</lg>
+
+<p rend="indent(18)">
+<hi rend='italic'>Chorus.</hi>&mdash;That nobody can deny, &amp;c.<note place="end">In this song, <q>v</q> takes the place of <q>w</q> in K.</note>
+</p>
+
+<pb n="045"/><anchor id="Pg045"/>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Without.</hi>] Rip, Rip! I'll stretch your ears when I get
+hold of them.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[Mine goot im himmel],<note place="end"><q>Der tyfil</q> in K.</note> dere is my frow.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Without.</hi>] Rip! you lazy varmint! Rip!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[<hi rend='italic'>Gets under the table with bottle.</hi>] Look out, boys! de wild
+cat's coming.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.</hi>&mdash;<name>Vedder</name>, <name>Rory</name> <hi rend='italic'>and</hi> <name>Clausen</name>, <hi rend='italic'>at table.</hi>&mdash;<hi rend='italic'>Enter</hi> <name>Dame</name>,
+<hi rend='italic'>with a stick.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>Where is this wicked husband of mine! odds bodikins
+and pins! I heard his voice; you've hid him somewhere! you
+ought to be ashamed of yourselves to inveigle a husband from a
+tender, loving spouse; but I'm put upon by all, because they
+know the mildness of my temper.&mdash;[<hi rend='italic'>They laugh.</hi>]&mdash;Odds bodikins
+and curling irons, but some of you shall laugh the other sides of
+your mouths&mdash;I'll pull your pates for you.<note place="end">In K. there follows:
+<lg>
+<l><name>Vedder.</name> Oh. I wish I was your husband, Dame Winkle. [<hi rend='italic'>Exit.</hi></l>
+<l><name>Dame.</name> You, my husband, you! [<hi rend='italic'>To the others.</hi>] Out of my sight, reprobates.</l></lg></note>
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.</hi>&mdash;<hi rend='italic'>Chases them round table; they exit.</hi>&mdash;<name>Dame</name> <hi rend='italic'>upsets table
+and discovers</hi> <name>Rip</name>.
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>Oh, you Rip of all rips! what have you to say for
+yourself?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Here is your [go-to-hell],<note place="end"><q>goot-hell</q> in K.</note> unt your family's, unt may
+you all live long and [prosper].
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Pulling him down the stage by the ear.</hi>] I'm cool&mdash;that
+is to say not very hot: but the mildest temper in the world would
+be in a passion at such treatment. Get home, you drunken monster,
+or I sha'n't be able to keep my hands off you. Tell me, sir,
+what have you been about all day?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Hard at work, my dumpsy dumpsy; de first ting I see dis
+morning was a fine fat rabbit.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>A rabbit? Oh, I do like rabbits in a stew; I like everything
+in a stew.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I be [d&mdash;&mdash;d]<note place="end"><q>stewed</q> in K.</note> but dat is a fact.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Well, well, the rabbit?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I was going to tell you, well, dere was de rabbit feeding
+in de grass.
+</p>
+</sp>
+
+<pb n="046"/><anchor id="Pg046"/>
+
+<sp>
+<speaker>Dame.</speaker><p>Well, well, Rip?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I [puts]<note place="end"><q>buts</q> in K.</note> my gun to my shoulder&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Yes,&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I takes goot aim mit him.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Yes,&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I [pulls]<note place="end"><q>bulls</q> in K.</note> my trigger, unt&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Bang went the gun and down the rabbit fell.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Eh? snap went [de]<note place="end"><q>der</q> in K.</note> gun and off de rabbit run. Ha, ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>No!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I be [d&mdash;&mdash;d fun]<note place="end"><q>stewed but</q> in K.</note> dat is a fact.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>And you shot nothing?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Not dat time; but de next time, I picks me my flint, unt
+I [creeps]<note place="end"><q>creebs</q> in K.</note> up to de little [pond]<note place="end"><q>bond</q> in K.</note> by de old field, unt dere&mdash;what
+do you [tink]<note place="end"><q>think</q> in K.</note> I see?
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Ducks?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>More as fifty black ducks&mdash;ducks as big as [a goose]<note place="end"><q>gooses</q> in K.</note>&mdash;well,
+I hauls up again.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>And so will I [<hi rend='italic'>Raising stick.</hi>] if you miss fire this time.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Bang!
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>How many down?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[One!]<note place="end"><q>von</q> in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Not more than one duck out of fifty?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yes, a great deal more as [one] duck.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Then you shot more than one?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yes, more as one duck,&mdash;I shot one old bull.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>What?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I'm [d&mdash;&mdash;d fun] dat is a fact! dat was one down, and
+[my goot im himmel]<note place="end"><q>den</q> in K.</note> how he did roar and bellow, unt lash his
+tail, unt snort and sneeze, unt sniff! Well, de bull puts right
+after me, unt I puts right away fun de bull: well, de bull comes
+up mit me just as I was climbing de fence, unt he catch me mit
+his horns fun de [seat]<note place="end"><q>back</q> in K.</note> of my breeches, unt sent me flying more
+<pb n="047"/><anchor id="Pg047"/>
+as a mile high.&mdash;Well, by-and-bye directly, I come down aready
+in a big tree, unt dere I sticks fast, unt den&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>You went fast asleep for the rest of the day.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Dat's a fact. How<note place='end'><q>do</q> follows <q>how</q> in K.</note> you know dat? you must be a witch.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Catching him by the collar.</hi>] Home, sir, home! you lazy
+scamp.                  [<hi rend='italic'>Beating him.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>But, mine lublicka frow&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Home!              [<hi rend='italic'>Beating him.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[Nine! nine!&mdash;]<note place="end"><q>Nein, nein</q> in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Home!               [<hi rend='italic'>Beats him.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>
+[Mine goot im himmel.]<note place="end">In K., Rip's speech is
+<q>Ter tyfill but I have cotch him dis time!</q></note>
+[<hi rend='italic'>Music.</hi>&mdash;<name>Dame</name>
+<hi rend='italic'>beats him off.</hi>
+</p>
+</sp>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A1S1"/>
+</div>
+
+<div id="A1S2">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE II.
+</head>
+<p>
+<hi rend='italic'>A Plain Chamber.</hi>
+</p>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Derric Van Slaus.</name><note place="end">
+<q><hi rend='italic'>and</hi> <name>Herman</name></q> in K. The scene, which is different, runs as follows:
+
+<lg>
+<l><name>Herman.</name> Lecture me as much as you will, father, if at the close of your sermon you are prepared to supply me with the money that I need.</l>
+<l><name>Derric.</name> Money! that is eternally your cry. Your extravagances have almost ruined and soon will dishonour me. Oh! I am but justly punished for my mad indulgence of a son who was born only to be my bane and curse.</l>
+<l><name>Herman.</name> If you could but invent some fresh terms for my reproach! such frequent repetition becomes, I assure you, very wearisome.</l>
+<l><name>Derric.</name> You have caused me to plunge into debt, and I am now pursued by a host of creditors.</l>
+<l><name>Herman.</name> We must find a way to quiet them. And for the money I now require&mdash;</l>
+<l><name>Derric.</name> Not another dollar do you obtain from me. Already, to supply your cravings, I have misappropriated some of the public money, and I must replace it soon if I would avert the shame and degradation with which I now am threatened.</l>
+<l><name>Herman.</name> And from which I will save you.</l>
+<l><name>Derric.</name> You?</l>
+<l><name>Herman.</name> Yes. I! Rip van Winkle, your tenant&mdash;</l>
+<l><name>Derric.</name> What has that idle, dissipated fellow to do with the present matter?</l>
+<l><name>Herman.</name> Much, as I will show you, and his daughter more.</l>
+<l><name>Derric.</name> His daughter?</l>
+<l><name>Herman.</name> Now scarcely seven years old, I believe. This girl has an aunt residing in New York, who has long since, in consequence of an affront received from Van Winkle, discarded the whole family. But I have discovered that, of which they have no notion.</l>
+<l><name>Derric.</name> What do you mean?</l>
+<l><name>Herman.</name> Why, that the whole of this aunt's fortune, and she is immensely rich, must of necessity, at the old lady's death, become the inheritance of the little Lowena.</l>
+<l><name>Derric.</name> And in what way can that affect us?</l>
+<l><name>Herman.</name> You shall hear. I have already caused a contract to be prepared, and to which you must obtain Rip Van Winkle's signature.</l>
+<l><name>Derric.</name> What is that contract?</l>
+<l><name>Herman.</name> You shall read it presently. Van Winkle is an easy soul, and at present, I believe, your debtor.</l>
+<l><name>Derric.</name> Yes, considerably in arrears with the rent of the tenement, which he holds from me.</l>
+<l><name>Herman.</name> Obtain his signature to the contract I am about to give you, and 'twill be a security on which money may be raised to any amount.</l>
+<l><name>Derric.</name> You amaze me, I&mdash;</l>
+<l><name>Herman.</name> You must have cash, father, to relieve you from your unpleasant difficulties, and I, for those delights of youth without which there is no advantage in being young.           [<hi rend='italic'>Exeunt.</hi>]
+</l>
+</lg></note>
+</p>
+<pb n="048"/><anchor id="Pg048"/>
+
+<sp>
+<speaker>Derric.</speaker><p>Should the present application fail, I am a ruined
+man; all my speculations will be frustrated, and my duplicity
+exposed; yes, the dissipation of my son must inevitably prove his
+ruin as well as mine. To supply his wants, the public money has
+been employed; and, if unable to replace it, heaven knows what
+may be the consequence. But my son is now placed with an able
+advocate in New York, and should he pursue the right path,
+there may be still hopes of his reformation.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>[<hi rend='italic'>Without.</hi>] My father, you say, is this way?
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>What voice is that; my son? What can have recalled
+him thus suddenly? Some new misadventure.&mdash;Oh, my
+forboding thoughts!
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Herman.</name>
+</p>
+
+<sp>
+<speaker>Derric.</speaker><p>Herman, what brings you back? Are all my cautions
+thus lightly regarded, that they can take no hold upon your
+conduct?
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>You have good cause for warmth, sir, but learn the
+reason of my disobedience, ere you condemn. Business of importance
+has urged me hither&mdash;such as concerns us both most intimately.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Some fresh extravagance, no doubt, to drain my
+little left, and set a host of creditors loose upon me.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Not so, sir, but the reverse. List! you know our
+neighbour, Rip Van Winkle?
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Know him? Aye, his idleness is proverbial; you
+have good cause to recollect him too, since 'twas by his courage
+your life was preserved, when attacked by the famished wolf.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>He has a daughter scarcely seven years old; now,
+the attorney whom I serve has been employed to draw up the
+will and settle the affairs of this girl's aunt, who, for some slight
+offered by Van Winkle, has long since discarded the family. At
+her death, the whole of her immense wealth, in cash and land, is
+the inheritance of the girl, who is, at this moment, the richest
+presumptive heiress in the land.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>What connection can Van Winkle's fortune have
+with ours?
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Listen! Were it possible to procure his signature to
+a contract that his daughter, when of age, should be married to
+me, on this security money might be raised by us to any amount.
+Now, my good father, am I comprehensible?
+</p>
+</sp>
+
+
+<pb n="049"/><anchor id="Pg049"/>
+
+<sp>
+<speaker>Derric.</speaker><p>Truly, this seems no visionary dream, like those in
+which, with fatal pertinacity, you have so oft indulged; and, on
+recollection, the rent of his tenement is in arrears; 'twill offer
+favourable opportunity for my calling and sounding him; the
+contract must be your care.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>'Tis already prepared and lacks only his signature.&mdash;[<hi rend='italic'>Presenting
+it.</hi>] Lawyers, who would do justice to their clients,
+must not pause at conscience; 'tis entirely out of the question
+when their own interest is concerned.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Herman, I like not this black-leg manner of proceeding:
+yet it augurs thou wilt be no pettifogger. I'll to Van
+Winkle straight and, though not legalized to act, yet in this case
+I can do work which honest lawyers would scorn.       [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>[<hi rend='italic'>Solus.</hi>] True; the honest lawyer lives by his reputation,
+and therefore pauses to undertake a cause he knows unjust:
+but how easily are some duped. Can my father for a
+moment suppose that the rank weeds of youth are so easily
+uprooted? No! what is to be done, good father of mine, but to
+serve myself? young men of the present generation cannot live
+without the means of entering into life's varieties and this supply
+will henceforth enable me to do so, to the fullest extent of my
+ambitious wishes.                                   [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A1S2"/>
+</div>
+
+<div id="A1S3">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE III.
+</head>
+<p>
+<name>Rip's</name> <hi rend='italic'>Cottage.&mdash;Door.&mdash;Window in flat.&mdash;A closet
+in flat, with dishes, shelves, &amp;c.&mdash;Clothes-basket, with clothes.&mdash;Table,
+chairs, arm-chair, with cloak over it.&mdash;Broom on stage.</hi>
+</p>
+
+<p rend="action">
+<name>Knickerbocker</name> <hi rend='italic'>enters cautiously.</hi>
+</p>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Zooks! I'm venturing into a tiger's den in
+quest of a lamb. All's clear, however; and, could I but pop on
+little Alice, how we would bill and coo. She comes! lie still, my
+fluttering heart.
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Alice.</name><note place="end"><q><hi rend='italic'>speaking off, to the child,</hi></q> in K.</note>
+</p>
+
+<sp>
+<speaker>Alice.</speaker><p>[<hi rend='italic'>Without observing</hi> <name>Knickerbocker.</name>] There, there, go
+to sleep. Ah! Knickerbocker, how I love you, [spite of all the
+strange ways that you pursue.]<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>[<hi rend='italic'>Aside.</hi>] Sensible, susceptible soul! [But
+merit ever meets its recompense.]<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<pb n="050"/><anchor id="Pg050"/>
+
+<sp>
+<speaker>Alice.</speaker><p>No wonder I am fascinated; [his figure is so elegant,
+and then his education! I never see him, but I am ready to jump
+into his loving arms. [<hi rend='italic'>Turning, she is caught in the embrace of</hi>
+<name>Knickerbocker.</name>]<note place="end">Not in K. Instead, <q>he is so handsome, his figure is so elegant.</q></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>This is too much for human nature to support;
+[this declaration is a banquet that gods might prize.<note place="end">Not in K.</note>]
+Beauteous angel! hear me, whilst I proclaim&mdash;
+</p>
+</sp>
+
+<p rend="right">
+[<hi rend='italic'>Kneeling.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>[<hi rend='italic'>Without.</hi>] Go along, you drunken brute.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>The devil! 'tis Dame Van Winkle! [what's
+to become of me?
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>If you're found here I'm ruined! you must conceal
+yourself&mdash;but where?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>That's the important question; oh,]<note place="end">Not in K.</note> I'll
+hop into the cupboard.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Not for the world! she is sure to want something out
+of it. Here, here, get into this clothes-basket, and let me cover
+you over with the foul linen.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>It's a very foul piece of business altogether
+but I must stomach it whether I will or no.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.&mdash;She puts him into the basket and covers him with linen.</hi>
+</p>
+
+<p rend="action">
+<name>Dame</name> <hi rend='italic'>enters, dragging in</hi> <name>Rip.</name>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>And now, sir, I've got you home, what have you to
+say for yourself, I should like to know?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Nothing, [my]<note place="end"><q>mein</q> in K.</note> darling, de least said is soonest mended,
+and so you shall have all de talk to yourself.&mdash;Now ain't dat
+liberal?
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Where's all the game you were to bring home?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>On de wing still: wouldn't venture to come mitin fire; for
+though dey missed mine gun, dere's one ting for certain, I never
+miss your blowing up.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>My blowing up! Odds bodikins and pins! I shall never
+be able to contain myself! Where's the money to pay the rent,
+you oaf?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I don't know.&mdash;Do you?
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>You'll go to prison, and that'll be the end on't.
+</p>
+</sp>
+
+<pb n="051"/><anchor id="Pg051"/>
+
+<sp>
+<speaker>Rip.</speaker><p>Come, no more quarrelling to-night. [We'll]<note place="end"><q>Ve'll</q> in K.</note> see about
+de rent money to-morrow morning.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>To-morrow! it's always to-morrow with you. So,
+Alice, you are sitting and idling as usual, just like your brother,
+a precious pair of soft pates.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Soft [pate]<note place="end"><q>bate</q> in K.</note>&mdash;pretty hard I guess, or it would have been
+[fructured]<note place="end"><q>broken</q> in K. Also add <q>by your knocks.</q></note> long since and dat's a fact.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>And now, Alice, come with me that I may satisfy
+myself how you have disposed of the children, for in these matters
+you are just such a crawler as that vagrum there, [<hi rend='italic'>Is retiring.</hi>]
+that terrapin!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Terrapin! Ah, dame, I leaves you to go the whole hog,
+but hark'ee, my lovey, before you go, won't you return de leetle
+bottle which you manage to get from me [last night]?<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Odds bodikins, and pins! A man already drunk, and
+asking for more liquor! You sha'n't have a drop, you sot, that
+you shall not. The bottle indeed! not you, eh! faith!
+</p>
+</sp>
+
+<p rend="action">
+[<hi rend='italic'>Exit with</hi> <name>Alice.</name>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>[Tunder]<note place="end"><q>Tonner</q> in K.</note> take me if I don't [think]<note place="end"><q>tink</q> in K.</note> but what she has
+[finished]<note place="end"><q>finish</q> in K.</note> it herself, and dat's de fact. My nose always sniffs
+like a terrier's; 'tis in de cupboard, her Hollands;&mdash;so, here goes
+to nibble.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music</hi>.&mdash;<name>Rip</name> <hi rend='italic'>opens the closet door cautiously, and is rummaging
+for a bottle, when he treads on</hi> <name>Knickerbocker</name>, <hi rend='italic'>who roars out
+lustily</hi>. <name>Rip</name>, <hi rend='italic'>in his sudden alarm, upsets the [porcelain and
+glass];<note place="end"><q>crockery</q> in K.</note> and, falling, rolls into the middle of the chamber, quaking
+in every limb, and vociferating loudly.</hi>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>Help! murder! fire! thieves!
+</p>
+</sp>
+
+<p>
+<name>Knickerbocker</name>, [<hi rend='italic'>in the interim</hi>]<note place="end">Not in K.</note>, <hi rend='italic'>darts out of the closet, and,
+[beyond the consciousness of future proceeding]<note place="end">Not in K.</note>, throws himself
+into the arm-chair</hi>.&mdash;<name>Alice</name>, <hi rend='italic'>entering hastily, throws a cloak over
+him, which hides him from observation</hi>.&mdash;<name>Dame</name> <hi rend='italic'>enters, alarmed.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>Odds bodikins and pins! what's the matter, now?
+</p>
+</sp>
+
+<pb n="052"/><anchor id="Pg052"/>
+
+<sp>
+<speaker>Rip.</speaker><p>[<hi rend='italic'>Raising his head cautiously.</hi>] Matter, indeed! [the
+devil's]<note place="end"><q>der tyfil's</q> in K.</note> in the cupboard! Oh, la! I'll be swammed.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>In the cupboard!&mdash;[<hi rend='italic'>Going there, sees china broken;
+squalling.</hi>]&mdash;All my fine porcelain destroyed! monster! vile,
+rapacious monster! A devil, indeed, has been in the cupboard,
+and that's you. The china, presented to me by my grand
+relations, which I set such store on, smashed into a thousand
+pieces; 'tis too much for my weak nerves. I shall swoon! I
+shall faint! [<hi rend='italic'>She sinks in the arm-chair, but immediately starts up,
+and, squalling, falls into </hi><name>Rip's</name> <hi rend='italic'>arms.</hi>&mdash;<name>Knickerbocker</name> <hi rend='italic'>regains
+the closet, unobserved by all, save</hi> <name>Alice.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Heaven have mercy on us! there was somebody in
+the chair! somebody in the chair!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Phoo! there's nothing in de chair, save your old cloak,
+[<hi rend='italic'>Tossing it aside.</hi>] dat's all.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p> I'm so alarmed&mdash;so agitated, that&mdash;Alice, put your
+hand into my pocket and you'll find a bottle. [<name>Alice</name><hi rend='italic'> produces a
+bottle.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[<hi rend='italic'>Aside.</hi>] A leetle bottle! Oh, dat's de [private]<note place="end"><q>brivate</q> in K.</note> cupboard.
+Alice, let me hold de leetle bottle, whilst you fetch a glass for the
+old woman. [<name>Alice</name>, <hi rend='italic'>hastening off, brings a wine-glass, which</hi>
+<name>Rip</name> <hi rend='italic'>fills and gives to</hi> <name>Dame.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Here's your [go-to-hell],<note place="end"><q>goot-hell</q> in K.</note> and your family's and may you
+live long and [prosper]<note place="end"><q>brosber</q> in K.</note>. [<hi rend='italic'>Drinks from the bottle</hi>; <name>Alice</name>, <hi rend='italic'>in the
+interim, proceeds to the closet and brings</hi>
+<name>Knickerbocker</name> <hi rend='italic'>out, who
+is making for the door, when, hearing some one approach, he again
+escapes to his retreat.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>[<hi rend='italic'>At door.</hi>] Oh, aunt! aunt! here's the burgomaster
+coming up the garden.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Odds bodikins and pins! the burgomaster! what's to be
+done now? Coming for the rent! What's to be done now, I
+say?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I'll go to bed and [think]<note place="end"><q>tink</q> in K.</note>.
+</p>
+</sp>
+
+<p rend="right">
+[<hi rend='italic'>Crosses.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>You sha'n't go to bed! you must make some fresh
+excuse;&mdash;you're famous at them to me;&mdash;you have got into the
+nobble and must get out of it as well as you can; I shall go and
+<pb n="053"/><anchor id="Pg053"/>
+consult my friend, Dame Wrigrim; and Alice, should the pedlar
+woman come, desire her not to leave any more of her rubbish
+here.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>As</hi> <name>Dame</name> <hi rend='italic'>retires, she meets</hi> <name>Derric</name><note place="end"><q>entering</q> inserted, in K.</note> <hi rend='italic'>to whom she curtseys.</hi>
+</p>
+
+<sp>
+<speaker>Derric.</speaker><p>Good evening, Dame.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>Your honour's servant.    [<hi rend='italic'>Exit</hi> <name>Dame.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[<hi rend='italic'>Aside.</hi>] La! what a stew I'm in. Alice take yourself off,
+'tis full time. Wish I was off too, mit all my heart and soul.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>[<hi rend='italic'>Aside.</hi>] Dear, dear! what will become of my poor
+Knickerbocker.                                          [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Well, honest Rip, how wags the world with
+you?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Bad enough, sir, for though [labouring]<note place="end"><q>I vork</q> in K.</note> from morn to
+night, I can make no advance in de world, though my industry
+is proverbial, and dat's a fact.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Why, where the bottle is concerned, few, I believe,
+can boast so much industry.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Dat is a fact; but I suppose you have called concerning
+de rent. [<hi rend='italic'>Aside.</hi>] How my heart [goes and comes!]<note place="end"><q>bit-and-bat</q> in K.</note> [<hi rend='italic'>Aloud.</hi>]
+Now if your honour will be so [good]<note place="end"><q>goot</q> in K.</note> enough to&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>To write the receipt: certainly.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Nine, nine! [<hi rend='italic'>Aside.</hi>] I'm stewed alive mit [perspiration.]<note place="end"><q>bersbiration</q> in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>We'll talk of the rent at a future period! There is
+another affair on which I wish to consult you.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Take a chair, your honour.&mdash;[<hi rend='italic'>Aside, rubbing his hands
+together.</hi>]&mdash;It's all right, by de hookey.&mdash;[<hi rend='italic'>Aloud.</hi>]&mdash;Take a glass
+mit me.                 [<hi rend='italic'>They take chairs.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>You know my only son, [whose life you preserved?]<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yes; and a [wild]<note place="end"><q>vild</q> and <q>tog</q> in K.</note> harum-scarum [dog]<note place="end">Not in K.</note> he is.  [<hi rend='italic'>Drinks.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>He [is now stationed in New York, studying the law,
+and]<note place="end">Not in K.</note> has become a staid, sober, prudent youth; and [now]<note place="end">Not in K.</note>,
+'tis my wish that he should settle in this, his native place, and
+[that he]<note place="end">Not in K.</note> marry some honest girl, who is altogether unacquainted
+with the frivolities of cities; and I have been thinking that in a
+<pb n="054"/><anchor id="Pg054"/>
+few years your daughter will be grown up, and would make a
+suitable match for him. True, there will be some disparity in
+their ages, but as the years are on the side of the husband, so
+'twill be all the better for the wife, in having a matured preceptor.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Beg [pardon],<note place="end"><q>bardon</q> in K.</note> sir; but it strikes me you are only carrying
+on your rigs mit me.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>No, on my honour; and, to convince you that I'm
+in earnest, I have brought with me a contract, by which our
+offspring, when of age, are bound to intermarry, or forfeit their
+several fortunes. I shall settle all mine on Herman, and I shall
+expect you to do the same for your daughter.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yah! yah! [ech woll]<note place="end">Not in K.</note>; I'll give her all [I got]<note place="end">Not in K.</note>; all my
+money; but she must be [d&mdash;&mdash;d]<note place="end"><q>uncommon</q> in K.</note> smart if she can find ['em.]<note place="end"><q>him</q> in K.</note>
+Take a drink, [Mr.]<note place="end"><q>Mynheer</q> in K.</note> Burgomaster. [<hi rend='italic'>Drinks.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Well, here are the two contracts, both binding and
+legally drawn.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p> Yah! yah! [<hi rend='italic'>Drinks.</hi>&mdash;<name>Derric</name> <hi rend='italic'>gives him the pen.</hi>] What
+you want me to do mit dis?
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Merely sign your name.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Me, [put]<note place="end"><q>boot</q> and <q>baber</q> in K.</note> my name to dat [paper], mitout my old
+woman knowing?&mdash;mine goot [friend],<note place="end"><q>freund</q> in K.</note> she would skin me.
+[<hi rend='italic'>Noise in closet.</hi>] [Schat! you witch!]<note place="end">In K. <q>S&mdash;ss cat! be quiet wid you!</q>.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>But I was about to propose, on condition of your
+signing the contract, to let you live rent free, in future.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Rent free! I'll sign! but [stop]!<note place="end"><q>Stob</q> and <q>vould</q> in K.</note> my old woman [must]
+play [old hob]<note place="end"><q>der tyfil</q> in K.</note> mit me&mdash;so put down dat I can break dat
+contract, if I choose, in twenty years and a day.&mdash;[<hi rend='italic'>Noise.</hi>]&mdash;[Schat!
+you witch!]<note place="end">In K. <q>S&mdash;s cat! you be quiet, or I will skin you as my vife skins me.</q></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>[<hi rend='italic'>Writing.</hi>] As you please.<note place="end">K. adds, <q>I will take care to get him so completely in my power that he shall not dare, however he might desire it, to avail himself of the power which that addition to the contract will give him.</q></note>   [<hi rend='italic'>Noise.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Schat! you witch!<note place="end">In K., the line reads. <q>S&mdash;s cat! I vill cut off your tail.</q></note>                     [<hi rend='italic'>Drinks.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Is that a cat, friend Rip?             [<hi rend='italic'>Writing.</hi>
+</p>
+</sp>
+
+<pb n="055"/><anchor id="Pg055"/>
+
+<sp>
+<speaker>Rip.</speaker><p>I don't know if it is a cat&mdash;but, if it is my dog [Snider],<note place="end"><q>Schneider</q> in K.</note>
+I wouldn't be in his skin when de old woman comes back.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>There, friend Rip, I have inserted, at your request,
+this codicil: <q>Should the said Rip Van Winkle think fit to annul
+this contract, within twenty years and a day, he shall be at full
+liberty to do so.</q>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yah, yah! [dos] is recht&mdash;dat is goot. Now [Mr.]<note place="end"><q>dat ist</q> in K; also <q>Mynheer.</q></note>
+Burgomaster, what you want me to do?
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Sign it!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Wass?
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Sign!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Give me de [paper]<note place="end"><q>baber</q> in K.</note>.&mdash;[<hi rend='italic'>Takes it.</hi>]&mdash;How my head turns
+round.&mdash;[<hi rend='italic'>Reading.</hi>]&mdash;<q>Should the said Rip Van Winkle</q>&mdash;yah,
+yah! dat is me.&mdash;"Rip Van Winkle&mdash;twenty years and a day."&mdash;Oh,
+dat is all recht.&mdash;[<hi rend='italic'>Writing.</hi>]&mdash;R-i-p V-a-n&mdash;[<hi rend='italic'>Noise.</hi>]&mdash;Schat!
+you witch! W-i-n-k-l-e&mdash;now, dere he is.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>And there is the counterpart.                  [<hi rend='italic'>Gives it.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Dis is for me, eh? I'll put him in my breast [pocket]<note place="end"><q>bocket</q> in K.</note>&mdash;yah,
+yah.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>Now, Rip, I must bid you good evening.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Stop! Take some more liquor. Why, de bottle is
+empty. Here! Alice! Alice! get some more schnapps for de
+burgomaster.
+</p>
+</sp>
+
+<sp>
+<speaker>Derric.</speaker><p>No, not to-night. [<hi rend='italic'>Rising.</hi>] But, should you want any
+you will always find a bottle for you at your old friend Rory's; so,
+good-night.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Stop, [Mr.]<note place="end"><q>Mynheer</q> in K.</note> Burgomaster! I will go and get dat bottle
+now.&mdash;[<hi rend='italic'>Rising.</hi>]&mdash;Alice, Alice! [comma see hah!]<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Alice.</name>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>Alice, give me mine hat. [<hi rend='italic'>Alice gives it.</hi>] Now, take care of
+de house till I comes back: if de old woman comes before I gets
+home, tell her I am gone out mit de burgomaster on  [par&mdash;par&mdash;tick&mdash;partickler]<note place="end"><q>bar-bar-tick-bartickler</q> in K.</note>
+business.<note place="end">K. has also:
+<lg>
+<l><name>Alice.</name> She wont believe it.</l>
+<l><name>Rip.</name> Tell her&mdash;I'll be stewed fun it's a fact.</l>
+</lg></note>              [<hi rend='italic'>Exit, with</hi> <name>Derric</name>.
+</p>
+</sp>
+
+
+<pb n="056"/><anchor id="Pg056"/>
+
+<p>
+<name>Alice</name> <hi rend='italic'>advances, and brings on</hi> <name>Knickerbocker</name> <hi rend='italic'>from the
+closet.</hi>
+</p>
+
+<sp>
+<speaker>Alice.</speaker><p>So, Mr. Knickerbocker, you are still here.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Yes, all that's left of me! and, now that the
+coast is clear, I'll give them leg bail, as the lawyers have it; and
+if ever they catch me here again&mdash;[<hi rend='italic'>He goes towards the door, and
+returns in sudden alarm.</hi>] Oh dear! oh dear! here's mother Van
+Winkle coming back. I shall never get out of this mess.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>It's all your own fault! Why would you come to-night!
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>I shall never be able to come again&mdash;the
+cross vixen will take care of that if she catches me here.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>[There is but one method of avoiding her wrath:]<note place="end">Not in K.</note>
+slip on the clothes the old pedlar woman brought for sale, and
+I'll warrant you'll soon be tumbled out of the house.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>With a good thrashing to boot, I suppose.
+[No matter, if I can but slip out of the house, I don't care what
+I slip into.]<note place="end">In K, only <q>But, never mind.</q></note> [<name>Knickerbocker</name> <hi rend='italic'>sits in arm-chair, and is attired by</hi>
+<name>Alice</name> <hi rend='italic'>in a woman's dress: on rising, the petticoats but reach his
+knees.</hi>] Confound the lower garments! they're too short [by
+half.]<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>'Tis your legs are too long [by half!]<note place="end">Not in K.</note>; stoop down;
+[say as little as possible, and you'll not be discovered.]<note place="end">Not in K.</note>
+                                [<hi rend='italic'>He again sits.</hi>
+</p>
+</sp>
+
+<p rend="action">
+<name>Dame</name> <hi rend='italic'>enters.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>[Well, I've got back and I see Mr. Van Slaus is gone!
+but]<note place="end">Not in K.</note> where's that varlet, Rip; out again? Oh, that Rip! that
+Rip! I'll certainly be the death of him; or he will of me, which is
+most likely. Alice, who have you in the chair?
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>The pedlar woman, aunt, who has come for the things
+she left.
+</p>
+</sp>
+
+<sp>
+<speaker>Dame.</speaker><p>The pedlar woman&mdash;hark'ee gossip: bring no more of
+your rubbish here. Take yourself off, and let me have a clear
+house.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p> [<hi rend='italic'>Aside.</hi>] 'Gad, I wish I was safely cleared
+out of it. [<name>Knickerbocker</name> <hi rend='italic'>rises, hobbles forward; but, forgetting
+the shortness of the petticoats, in curtseying, is discovered by the</hi>
+<name>Dame</name>, <hi rend='italic'>from the exposure of his legs.</hi>
+</p>
+</sp>
+
+
+<pb n="057"/><anchor id="Pg057"/>
+
+<sp>
+<speaker>Dame.</speaker><p>Odds bodikins and pins! who have we here! an imposter!
+but you shall pay for it; this is a pedlar woman, indeed,
+with such lanky shanks. [<hi rend='italic'>She rushes up to door and, locks it&mdash;then,
+with a broom pursues him round; he flings bonnet in her
+face.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Needs must, when the devil drives&mdash;so
+here goes.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>He jumps through the window [which is dashed to pieces]<note place="end">Not in K.</note>&mdash;and
+disappears.</hi>&mdash;<name>Dame</name> <hi rend='italic'>rushes up, with broom, towards window.</hi>&mdash;<name>Alice</name>
+<hi rend='italic'>laughs.</hi>
+</p>
+
+<sp>
+<speaker>Dame.</speaker><p>What! laugh at his misconduct, hussey. One's just as
+bad as the other. All born to plague me. Get you to bed&mdash;to
+bed, I say. [<name>Dame</name> <hi rend='italic'>drives</hi> <name>Alice</name> <hi rend='italic'>off, and follows.</hi>
+</p>
+</sp>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A1S3"/>
+</div>
+
+<div id="A1S4">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE IV.
+</head>
+<p>
+<hi rend='italic'>Half dark.&mdash;A front wood.&mdash;The report of a gun is
+heard; shortly after</hi>, <name>Rip</name> <hi rend='italic'>enters, with his fowling piece.</hi>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>[Whip-poor-Will! egad, I think they'll whip poor Rip.]<note place="end">Not in K.</note>&mdash;[ <hi rend='italic'>Takes
+aim at bird; it flashes in the pan.</hi>]&mdash;Another miss! Oh,
+curse the misses and the missusses! hang me if I can get a single
+shot at the sky-flyers. [Wish]<note place="end"><q>I vishes</q> in K. No attempt is being made to indicate small differences ofdialect.</note> I had one of de German guns which
+Knickerbocker talks so much about&mdash;one dat fires round<note place="end"><q>der</q> inserted in K.</note>
+corners: la! how I'd bring dem down! bring dem down! were I
+to wing as many daily as would fill a dearborn, Dame wouldn't
+be satisfied&mdash;not that she's avaricious&mdash;but den she must have
+something or somebody to snarl at, and I'm the unlucky dog at
+whom she always lets fly. Now, she got at me mit de broomstick
+so soon as I got back again; if I go home again, she will
+break my back. Tunner wasser! how sleepy I am&mdash;I can't go home,
+she will break my back&mdash;so I will sleep in de mountain to-night,
+and to-morrow I turn over a new leaf and drink no more
+liquor.<note place="end">In K., stage direction, <q>[<hi rend='italic'>Lies down.</hi>]</q>.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Voice.</speaker><p>[<hi rend='italic'>Outside:</hi>] Rip Van Winkle.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>A dead pause ensues.&mdash;Suddenly a noise like the rolling of cannonballs
+is heard&mdash;then a discordant shout of laughter.</hi>&mdash;<name>Rip</name> <hi rend='italic'>wakes
+and sits up astonished.</hi>
+</p>
+
+<pb n="058"/><anchor id="Pg058"/>
+
+<sp>
+<speaker>Rip.</speaker><p>What [the deuce]<note place="end"><q>der debil</q> in K.; also <q>mein frau.</q></note> is that? [my wife] at mine elbow?
+Oh, no, nothing of the kind: I must have been dreaming; so I'll
+contrive to nap, since I'm far enough from her din.
+                           [<hi rend='italic'>Reclines and sleeps.</hi><note place="end">In K., the stage directions are: [<hi rend='italic'>Lies down to sleep.</hi></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Voice</speaker> <p>[<hi rend='italic'>Outside.</hi>] Rip Van Winkle. [<hi rend='italic'>The laugh being repeated</hi>,
+<name>Rip</name> <hi rend='italic'>again awakes.</hi><note place='end'>In K., the speech takes this form:
+<l><name>Voice.</name> [<hi rend='italic'>Without.</hi>] Rip Van Winkle!
+</l></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I can't be mistaken dis time. Plague on't, I've got among
+the spirits of the mountains, metinks, and haven't a drop of
+spirits left to keep them off.
+</p>
+</sp>
+
+<sp>
+<speaker>Swaggrino.</speaker><p><note place="end">No name in K., only <q><name>Voice.</name></q></note>[<hi rend='italic'>Without.</hi>] Rip Van Winkle! Rip Van Winkle.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Rip Van Winkle! that's me to a certainty.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.</hi>&mdash;[<name>Swaggrino</name>, <hi rend='italic'>the grotesque dwarf, enters</hi>],<note place="end">In K., read. <q><hi rend='italic'>One of the</hi> <name>Spectre Crew</name> <hi rend='italic'>enters.</hi></q></note> <hi rend='italic'>bending
+beneath the weight of a large cask which he bears on his shoulder.&mdash;He
+pauses, examines </hi><name>Rip</name>, <hi rend='italic'>then invites him to assist him in placing
+the cask on the ground, which </hi><name>Rip</name> <hi rend='italic'>complies with.</hi>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>Hang me, if he hasn't brought my heart up into my
+mouth: what an outlandish being, [a sea snake,]<note place="end">Not in K.</note> by
+dunder!
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.</hi>&mdash;[<name>Swaggrino</name>,]<note place="end"><q><hi rend='italic'>The</hi> <name>Imp</name></q> in K.; also <q>asks.</q></note> <hi rend='italic'>pointing to the cask, [entreats</hi>] <name>Rip's</name>
+<hi rend='italic'>assistance in bearing it up the mountains.</hi>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>Want me to help you up mit it? Why not say so at
+first, my old codger? What a queer old chap, to be sure; but I
+can't let him toil up the mountain with such a heavy load as dat,
+no, no, and so, old [broad]<note place="end"><q>pale</q> in K.</note> chops, I'll help you.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music</hi>.&mdash;[<name>Dwarf</name>]<note place="end"><q><name>Imp</name></q> in K.</note> <hi rend='italic'>assists in placing cask on</hi> <name>Rip's</name> <hi rend='italic'>shoulder. A
+loud laugh is heard;</hi> <name>Rip</name> <hi rend='italic'>is alarmed, but</hi> [<name>Dwarf</name>] <hi rend='italic'>signs him to
+proceed and be of good courage&mdash;leads way up rocks. Another peal
+of laughter, and</hi> <name>Rip</name> <hi rend='italic'>hastily follows him.</hi>
+</p>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A1S4"/>
+</div>
+
+<div id="A1S5">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE V.
+</head>
+<p>
+<hi rend='italic'>Dark.&mdash;The Sleepy Hollow, in the bosom of the
+mountains, occupying the extreme extent of the stage&mdash;stunted
+trees, fragments of rock in various parts.&mdash;Moon in the horizon;
+<pb n="059"/><anchor id="Pg059"/>
+the entrance to this wild recess being by an opening from the
+abyss in the rear of the glen.</hi>
+</p>
+
+<p>
+<hi rend='italic'>Music</hi>.&mdash;<name>Grotesque Dutch Figures</name> <hi rend='italic'>with [enormous]<note place="end">Not in K.</note> masked
+heads and lofty tapering hats, discovered playing</hi> [<hi rend='italic'>at cards in various
+places&mdash;others at Dutch pins&mdash;battledores and shuttlecocks&mdash;the
+majority seated on a rock drinking and smoking.</hi>]<note place="end">In K., reads, <q><hi rend='italic'>at Dutch pins&mdash;the majority seated on a rock drinking and smoking&mdash;thunder
+reverberates each time a bowl is delivered</hi>.</q></note>
+</p>
+
+<sp>
+<speaker>Gauderkin.</speaker><lg>
+<l>Since on earth this only day,</l>
+<l>In fifty years we're given to stray,</l>
+<l>We'll keep it as a holiday!</l>
+<l>So brothers, let's be jolly and gay.</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Icken.</speaker><lg>
+<l>But question, where's that lazy [wight,]<note place="end"><q><name>Ichen</name></q> in K.; also <q>sprite.</q></note></l>
+<l>Who, soon as sun withdrew it's light,</l>
+<l>Was for the earth's rich beverage sent,</l>
+<l>And has such time in absence spent.</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Gauderkin.</speaker><lg>
+<l>Perhaps [with some]<note place="end">Not in K.</note> misfortune he's been doomed to meet,</l>
+<l>Cross'd, no doubt, on the road by mortal feet.</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Icken.</speaker><lg>
+<l>And what the punishment that you decree</l>
+<l>On him, who on our mysteries makes free?</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Gauderkin.</speaker><lg>
+<l>Twenty years in slumber's chain,</l>
+<l>Is the fate that we ordain:</l>
+<l>Yet, if merry wight he prove,</l>
+<l>Pleasing dreams his sleep shall move.</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Icken.</speaker><lg>
+<l>Our brother comes, and up the rugged steep,</l>
+<l>A mortal, see, Swaggrino's presence keep.</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Omnes.</speaker><lg>
+<l>Twenty years in slumber's chain,</l>
+<l>Is the fate that we ordain.</l>
+<l>He comes! he comes! let silence reign!&mdash;</l>
+<l>Let silence reign! let silence reign!</l>
+</lg>
+</sp>
+
+<p>
+<hi rend='italic'>The</hi> <name>Spirits</name> <hi rend='italic'>retire up and station themselves in motionless
+attitudes</hi>.
+</p>
+
+<p>
+<hi rend='italic'>Music</hi>.&mdash;[<name>Swaggrino</name>]<note place="end"><q><hi rend='italic'>The</hi> <name>Imp</name></q> in K.</note> <hi rend='italic'>ascends by the opening in the rear followed
+by</hi> <name>Rip</name>, <hi rend='italic'>with the keg</hi>.&mdash;<name>Rip</name> <hi rend='italic'>advances on the left, and, with
+the assistance of his conductor, places the cask on the
+rock.&mdash;</hi>
+</p>
+
+<p>
+<hi rend='italic'>The</hi> <name>Spirits</name> <hi rend='italic'>remain immovable.</hi>
+</p>
+
+<pb n="060"/><anchor id="Pg060"/>
+
+<sp>
+<speaker>Rip.</speaker><p>I'm a dead man, to a certainty. Into what strange
+company have I tumbled! crikey, what will become of me?
+Dear, dear! would I were home again, even though along with
+[Dame]<note place="end"><q>Frau</q> in K.</note> Van Winkle.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.&mdash;The</hi> <name>Figures</name> <hi rend='italic'>severally advance, and stare at him, then
+resume their game.</hi> <name>Swaggrino</name> <hi rend='italic'>taps the cask; motions the
+astonished</hi> <name>Rip</name> <hi rend='italic'>to assist him in distributing its contents into
+various flagons; an injunction with which he complies.</hi>&mdash;<name>Swaggrino</name>
+<hi rend='italic'>helps his companions.</hi>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>After all, they seem a harmless set, and there can be no
+argument with them, for they appear to be all dumbies.&mdash;[Lord
+were my wife]<note place="end">In K., <q>if mein wife vere</q></note>  as silent. They're a deadly, lively, jolly set; but I
+wonder what kind of spirits dese spirits are [drinking!]<note place="end"> <q>trinking</q> in K.</note>  Surely,
+dere can be no harm in taking a drop along mit dem.&mdash;[<hi rend='italic'>Fills
+a flagon.</hi>]&mdash;Here goes!&mdash;Gentlemen, here's your [go-to-hells,]<note place="end"><q>goot-hells</q> in K.</note>
+and your [broad chopped]<note place="end">Not in K.  Instead, <q>Your family's goot-hells.</q></note>  family's, and may you all live long
+and prosper. [<hi rend='italic'>Drinks.</hi>]
+</p>
+</sp>
+
+<sp>
+<speaker>Omnes.</speaker><p>Ha, ha, ha!
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.&mdash;A grotesque dance ensues, during which</hi> <name>Rip</name> <hi rend='italic'>continues to
+supply himself from the keg.&mdash;He at length joins in the dance, and
+becomes so exhausted, that he reels forward and sinks in front.
+The dancing ceases, the</hi> <name>Spirits</name> <hi rend='italic'>utter three "ho, ho, ho's!"&mdash;[Some
+of them sink.]</hi><note place="end">In K., the stage directions end, <q><hi rend='italic'>Moon very bright. Tableau.</hi></q></note>
+
+</p>
+
+<p>
+END OF ACT I.
+</p>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A1S5"/>
+</div>
+</div>
+
+<div>
+<index index="toc" />
+<index index="pdf" />
+<head rend="center">
+ACT II.
+</head>
+
+<div id="A2S1">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE I.
+</head>
+<p>
+<hi rend='italic'>The last of the First Act repeated; but the distance now
+presents a richly cultivated country.&mdash;The bramble is grown into
+a lofty tree, and all that remains of</hi> <name>Rip's</name> <hi rend='italic'>gun is its rusty barrel,
+which is at the foot of the tree.</hi>
+</p>
+
+<p>
+<hi rend='italic'>Bird Music.</hi>&mdash;<name>Rip</name> <hi rend='italic'>discovered extended on the ground, asleep; his
+hair grey, and beard grown to an unusual length.&mdash;The hour of
+<pb n="061"/><anchor id="Pg061"/>
+the scene is gray dawn and birds from sky and hill are
+chirping.</hi><note place="end">In K., the scene opens thus:
+<p>
+<hi rend='italic'>The</hi> <name>Aerial Spirits</name> <hi rend='italic'>in Tableau.</hi>&mdash;<hi rend='italic'>Dance of the</hi> <name>Spirits</name> <hi rend='italic'>to the gleams of the rising
+sun.</hi>&mdash;<hi rend='italic'>Tableau.</hi>
+</p>
+<p>
+<name>Spirit of the Mountain.</name> [<hi rend='italic'>Speaks.</hi>]
+</p>
+<lg rend='indent(10)'>
+<l>Wake, sleeper, wake, rouse from thy slumbers.</l>
+<l rend='indent(2)'>The rosy cheeked dawn is beginning to break,</l>
+<l>The dream-spell no longer thy spirit encumbers.</l>
+<l rend='indent(2)'>Gone is its power, then wake, sleeper, wake.</l>
+</lg>
+<lg rend='indent(10)'>
+<l>The Spirits of Night can no longer enchain thee,</l>
+<l rend='indent(2)'>The breeze of the morn now is striving to shake</l>
+<l>Sweet dewdrops like gems from the copsewood and forest tree.</l>
+<l rend='indent(2)'>All nature is smiling, then wake, sleeper, wake.</l>
+</lg>
+<p rend='indent(10)'>
+<hi rend='italic'>Tableau.&mdash;They disappear as the clouds gradually
+pass away and a full burst of bright sunshine
+illumines the scene.</hi>]
+</p></note>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>[<hi rend='italic'>Speaking in his sleep.</hi>] Mother Van Winkle! [Dame]<note place="end"><q>Frau</q> in K.</note>
+Van Winkle! what are you arter? Don't be always badgering; will
+you never allow poor Rip a moment's quiet? Curse it! don't
+throw de hot water about so, you'll scald one's eyes, and so you
+will, and no mistake; and so you have. [<hi rend='italic'>He awakens in sudden
+emotion.</hi>] Eh! by dunder! what's all dis,&mdash;where am I&mdash;in the
+name of goodness where am I? [<hi rend='italic'>Gazing around.</hi>] On the Catskill
+Mountains, by all that's miraculous! Egad! my rib will play the
+very devil with me for stopping out all night. There will be a fine
+peal sounded when I get home. [<hi rend='italic'>Rises.</hi>]<note place="end">In K., stage direction reads,<q><hi rend='italic'>Rises with difficulty.</hi></q> All through this speech in K., the dialect is pronounced.</note> How confoundedly
+stiff and sore my joints do feel; surely I must have been sleeping
+for a pretty long time! Asleep! [no;]<note place="end"><q>nein</q> in K.</note> I was awake and enjoying
+myself with as jolly a rum set of codgers as ever helped to toom
+out a keg of Hollands. I danced, and egad, drank with them, till
+I was pretty blue, and dat's no mistake;&mdash;but confound it, they
+shouldn't have caught me napping, for 'tis plain they have taken
+themselves off [like an unceremonious pack of&mdash;pack of&mdash;give an
+eye tooth to know who they were.<note place="end">Not in K.</note> [<hi rend='italic'>Looking around.</hi>] Where is
+my gun? I left it on a little bush. [<hi rend='italic'>On examining he finds the
+rusty barrel of his gun.</hi>] Hillo! [come up, here's a grab!]<note place="end">In K., <q>donner unt blitzen.</q></note> the
+unmannerly set of sharpers! stolen one of the best fowling-pieces
+that ever made a crack; and left this [worthless,]<note place="end">Not in K.</note> rusty barrel,
+by way of exchange! What will Dame Van Winkle say to this!
+<pb n="062"/><anchor id="Pg062"/>
+By the hookey! but she'll comb my hair finely! Now, I went to
+sleep beneath that hickory;&mdash;'twas a mere bush. Can I be
+dreaming still? Is there any one who will be [good]<note place="end"><q>goot</q> in K.</note> enough to
+tell me whether it is so or not? Be blowed if I can make head or
+tail [o'nt.]<note place="end">In K., <q>of him.</q></note> One course only now remains,&mdash;to pluck up resolution,
+go back to Dame Van Winkle, and by dunder! she'll soon let
+me know whether I'm awake or not!<note place="end">In K., speech ends, [<hi rend='italic'>Moves painfully.</hi>] <q>My legs do seem as if they vould not come after me.</q></note>
+</p>
+</sp>
+
+<p rend="right">
+[<hi rend='italic'>Music.&mdash;Exit.</hi>
+</p>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A2S1"/>
+</div>
+
+<div id="A2S2">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE II.<note place="end">Scene II, in K., reads as follows:
+<p rend="center">
+<hi rend="smallcaps">Scene Second.</hi>&mdash;<hi rend='italic'>Chamber.</hi>
+</p>
+<p>Enter <name>Nicholas Vedder</name> and <name>Dame Vedder</name> (<hi rend='italic'>formerly</hi> <name>Dame van Winkle</name>).
+</p>
+<lg>
+<l><name>Dame.</name> 'Tis very hard for the poor girl.</l>
+<l><name>Vedder.</name> Yes; but 'tis your fault. You shouldn't have had a fool and a sot for your first husband.</l>
+<l><name>Dame.</name> [<hi rend='italic'>Aside.</hi>] And I didn't ought to have had a bear for my second.</l>
+<l><name>Vedder.</name> What did you say?</l>
+<l><name>Dame.</name> Nothing&mdash;nothing.</l>
+<l><name>Vedder.</name> Well, don't say it again. Because Lowena will have to be the wife of Herman Van Slaus, that's settled!</l>
+<l><name>Dame.</name> But he's a most disreputable man, and my poor child detests him.</l>
+<l><name>Vedder.</name> Well, she won't be the first wife that has detested her husband.</l>
+<l><name>Dame.</name> No; I should think not, indeed.</l>
+<l><name>Vedder.</name> You should think not! What do you mean by that?</l>
+<l><name>Dame.</name> Nothing!</l>
+<l><name>Vedder.</name> Well, don't mean it again. What, do you suppose that I'll suffer my daughter-in-law to sacrifice her fortune&mdash;a fortune of which we shall have our share?&mdash;Herman has promised that.</l>
+<l><name>Dame.</name> Herman will promise anything; and you know that my poor girl is doatingly fond of young Gustaffe.</l>
+<l><name>Vedder.</name> Well, I can't help that; but I am not going to allow her to make a beggar of herself and us too, for any nonsense about the man of her heart.</l>
+<l><name>Dame.</name> <corr sic="Her's">Hers</corr> will break if she is compelled to&mdash;</l>
+<l><name>Vedder.</name> Nonsense&mdash;a woman's heart is about the toughest object in creation.</l>
+<l><name>Dame.</name> You have given me plenty of proof that you think so.</l>
+<l><name>Vedder.</name> What do you intend to imply by that?</l>
+<l><name>Dame.</name> Nothing!</l>
+<l><name>Vedder.</name> Well, don't imply it again&mdash;don't, because&mdash;</l>
+</lg>
+
+<p>
+<hi rend='italic'>Enter</hi> Knickerbocker <hi rend='italic'>and</hi> <name>Alice</name>, <hi rend='italic'>arm-in-arm&mdash;both grown stout.</hi>
+</p>
+
+<lg>
+<l><name>Knickerbocker.</name> Halloa! what's going on&mdash;a matrimonial tiff? My wife has just been giving me a few words, because I told her that she waddles up and down, and rolls about like one of our butter-laden luggers in a squall, as the Dutchmen have it.</l>
+<l><name>Alice.</name> You have no occasion to talk, Mr. Knickerbocker, for, I am sure, your corporation&mdash;</l>
+<l><name>Knickerbocker.</name> Yes, I belong to the town corporation, and to look respectable, am obliged to have one of my own. Master Vedder, a word with you. [<hi rend='italic'>Talks aside with him.</hi></l>
+<l><name>Alice.</name> [<hi rend='italic'>Going to</hi> <name>Dame.</name>] You wish now, that my poor brother Rip hadn't died, don't you?</l>
+<l><name>Dame.</name> [<hi rend='italic'>Sighing.</hi>] But I thought Nicholas Vedder would have been just as easy to manage: he was as mild as a dove before our marriage.</l>
+<l><name>Alice.</name> You ought to have known that to be allowed to wear the inexpressibles by two husbands was more than the most deserving of our sex had any right to expect.</l>
+<l><name>Dame.</name> Oh, dear me! I never thought that I should live to be any man's slave.</l>
+<l><name>Alice.</name> Ah, we never know what we may come to! but your fate will be a warning and example for me, if Mr. Knickerbocker should take it into his head to leave me a widow.</l>
+<l><name>Vedder.</name> Mrs. Vedder, what are you whispering about there?</l>
+<l><name>Dame.</name> Nothing!</l>
+<l><name>Vedder.</name> Well, don't whisper it any more.</l>
+<l><name>Alice.</name> [<hi rend='italic'>Aside</hi>, to <name>Dame.</name>] Come along with me.</l>
+<l><name>Vedder.</name> Mrs. Vedder, take yourself out of the room.</l>
+<l><name>Alice.</name> Mr. Knickerbocker, I shall expect you to follow me immediately.</l>
+</lg>
+
+<p rend="right">
+[<hi rend='italic'>Exeunt</hi> <name>Alice</name> <hi rend='italic'>and</hi> <name>Dame.</name>
+</p>
+
+<lg>
+<l><name>Knickerbocker.</name> And this is the last day of the term fixed on by the agreement!</l>
+<l><name>Vedder.</name> Yes; and Herman is resolute, and so am I.</l>
+<l><name>Knickerbocker.</name> I am sorry for poor Lowena.</l>
+<l><name>Vedder.</name> She shouldn't have had a fool for a father.</l>
+<l><name>Knickerbocker.</name> It was unfortunate, but I can't exactly see that it was her fault.                        [<hi rend='italic'>Exeunt.</hi></l>
+</lg></note>
+</head>
+<p>
+<hi rend='italic'>A well-furnished apartment in the house of</hi> <name>Knickerbocker.</name>
+</p>
+
+<pb n="063"/><anchor id="Pg063"/>
+
+<p rend="action">
+<name>Lorrenna</name>, <hi rend='italic'>now a woman, enters.</hi>
+</p>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Alas, what a fate is mine! Left an orphan at an
+early age,&mdash;a relation's bounty made me rich, but, to-day, this
+fatal day&mdash;poverty again awaits me unless I bestow my hand
+without my heart! Oh, my poor father! little did you know the
+misery you have entailed upon your child.
+</p>
+</sp>
+
+<p>
+<name>Knickerbocker</name> <hi rend='italic'>and</hi> <name>Alice</name> <hi rend='italic'>enter, arm in arm. They are much
+more corpulent than when seen in Act I and dressed in modern
+attire</hi>,&mdash;<name>Alice</name> <hi rend='italic'>in the extreme of former fashion.</hi>
+</p>
+
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Decided that cause in the most judgematical
+like manner. White wasn't black. Saw that in a twinkling;
+no one disputed my argument. [<hi rend='italic'>Speaking as entering.</hi>] Come
+along, spouse! Lauks! how you do waddle up and down, side to
+side, like one of our butter-laden luggers in a squall, as the Dutchmen
+have it. Ah, Lorrenna, you here? but you appear more depressed
+than customary. Those saddened looks are by no means
+pleasing to those who would ever wish to see you cheerful. What
+the dickens prevents your being otherwise when all around are so
+anxious for your happiness!
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Truly, am I beholden for your protection and ever
+grateful. But to place a smile on the brow whilst sorrow lingers
+in the bosom is a deceptive penance to the wearer&mdash;painful to
+those around who mark and must perceive the vizard; to say that
+I am happy would be inconsistent with truth. The persecutions
+of Herman Van Slaus&mdash;
+</p>
+</sp>
+
+<pb n="064"/><anchor id="Pg064"/>
+
+<sp>
+<speaker>Alice.</speaker><p>Ah! my dear Lorrenna, many a restless night have I had
+on that varlet's account, as spouse knows.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>That's as true as there's ghosts in the
+Catskills, as Dutchmen have it; for be darned if a single night
+passes that Alice suffers me to go to sleep peaceably.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Well, well; cheer thee, my niece; there is bounteous
+intelligence in store; nor think there is any idle fiction in this brain, as our divine poets picture.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>There, there, Alice is getting into her
+romance again,&mdash;plain as my fist&mdash;she has been moonified ever
+since she became a subscriber for books at the new library!
+Planet struck, by gum, as philosophers have it, and&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>And you have said so little to the purpose, that I
+must now interpose. My dear Lorrenna&mdash;Gustaffe&mdash;'tis your
+aunt who speaks&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>There, now, pops in her word before a
+magistrate.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>My Gustaffe! ha! say!&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Would have told you in a brace of shakes,
+as gamblers have it, if she hadn't thrown the dice first. Yes,
+my pretty chicky&mdash;Gustaffe's vessel is now making up the
+Hudson; so, cheer thee! cheer thee, I say! your lover is not far off.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Gustaffe so near? blessed intelligence! Oh, the
+happiest wishes of my heart are gratified! But are you certain?
+Do not raise my hopes without cause. Are you quite certain?
+speak, dear aunt; are you indeed assured, Gustaffe's vessel has
+arrived?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Didn't think fit to break the news too
+suddenly, but you have it.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p><q>The ship with wide-expanded canvas glides along
+and soon</q>&mdash;I forget the remainder of the quotation; but 'tis
+in the delectable work, <q>Robinson Crusoe</q>&mdash;soon will you hear
+him hail. [<hi rend='italic'>A knock is heard.</hi>] My stars foretell that this is either him&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Or somebody else, as I suppose.
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Sophia.</name>
+</p>
+
+<sp>
+<speaker>Sophia.</speaker><p>Oh, sir; Squire Knickerbocker, Herman, son of the
+late Derric Van Slaus, is in the hall.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>That's not the him whom I expected, at all
+events.
+</p>
+</sp>
+
+<pb n="065"/><anchor id="Pg065"/>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Son of the individual whom I succeeded
+as burgomaster? Talk of the devil&mdash;now, I don't know how it is,
+but I'm always squalmish when in company of these lawyers
+that's of his cast. <hi rend='italic'>Qui Tam.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Sophia.</speaker><p>He wishes to be introduced. What is your pleasure?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Let him be so, by all means. An honest
+man needn't fear the devil.            [<hi rend='italic'>Exit</hi> <name>Sophia.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Excuse my presence, uncle. To hear him repeat
+his claims, would but afflict a heart already agonized: and with
+your leave, I will withdraw.           [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Aye, aye; let me alone to manage him,
+as a barrister says to his client when he cross-questions a witness.
+See Miss Lorrenna to her chamber, Mrs. Knickerbocker. This
+Herman is a d&mdash;&mdash;d rogue, as the English have it; and he'll go to
+the dominions below, as the devil will have it, and as I have had
+it for the last twenty years.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>And I tell you, to your comfort, if you don't send the
+varlet quick off with a flea in his ear, you shall have it. Yes,
+Squire Knickerbocker, you shall have it, be assured. So says
+Mrs. Knickerbocker, you shall have it.             [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Truly, I've had plenty of it from you for the
+last eighteen years.
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Herman.</name>
+</p>
+
+<sp>
+<speaker>Herman.</speaker><p>Sir, I wait upon you once more. The period is
+now expired when my just claim, which you have so long protracted,
+can be vainly disputed. A vain and idle dispute of
+justice.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Precious fine, indeed, sir,&mdash;but, my ward
+has a mighty strong reluctance to part with her fortune, and
+much more so to make you her partner for life. You are not
+exactly to her liking, nor to her in the world's generally.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>One or the other she is compelled to. You are
+aware, sir, that the law is on my side! the law, sir&mdash;the law, sir!
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Oh, yes! And, no doubt, every quibble
+that it offers will be twisted to the best purpose for your interest.
+You're a dabster at chicane, or you're preciously belied.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>You will not, I presume, dispute the signature of
+the individual who formed the contract?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Oh, no! not dispute Rip's signature, but
+his error in judgement. I happened to be a cabinet councillor
+<pb n="066"/><anchor id="Pg066"/>
+at the very moment my deceased relative, who was <hi rend='italic'>non compos
+mentis</hi>, at the time, clapped his pen to a writing, artfully extracted
+from him by your defunct father, whose memory is
+better forgotten than remembered.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Sir, I came here, not to meet insult; I came hither,
+persuaded you would acknowledge my right, and to prevent a
+publicity that may be painful to both parties. You are inclined
+to dispute them; before a tribunal shall they be arbitrated; and,
+knowing my claims, Mr. Knickerbocker, know well that Lorrenna
+or her fortune must be mine.
+                                                   [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>You go to Davy Jones, as the seamen have
+it. Lorrenna shall never be yours, and if ever she wants a cent
+whilst I have one, my name isn't Knickerbocker;&mdash;damme, as
+the dandies have it.
+</p>
+</sp>
+
+<p rend="action">
+<name>Lorrenna</name> <hi rend='italic'>enters, with</hi> <name>Alice.</name>
+</p>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>My dear guardian, you have got rid of Herman,
+I perceive.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>I wish I had, with all my soul; but he sticks
+to his rascally undertaking like a crab to its shell; egad, there
+will be no dislodging him unless he's clapped into a cauldron of
+boiling water, as fishmongers have it.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>And boiled to rags. But, husband! husband, I say!
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Mr. Knickerbocker, my dear, if you
+please.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Well, then, Mr. Knickerbocker, my dear, if you please,
+we have been looking out at the window to ascertain who came
+and went, and have discovered a fine, handsome fellow galloping
+towards the town, and I shouldn't at all wonder if it wasn't&mdash;
+</p>
+</sp>
+
+<p rend="action">
+<name>Gustaffe</name> <hi rend='italic'>rushes in.</hi>
+</p>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>[<hi rend='italic'>Hurries to him.</hi>] My dear, dear Gustaffe!
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>[<hi rend='italic'>Embracing her.</hi>] My tender, charming Lorrenna!
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Why, Gustaffe! Bless us! why, how the
+spark has grown.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Not quite so corpulent as you, spouse.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Spouse! Mr. Knickerbocker, if you please.
+Truly, wife, we have both increased somewhat in corporal, as
+well as temporal substance, since Gustaffe went to sea. But
+you know, Alice&mdash;
+</p>
+</sp>
+
+
+<pb n="067"/><anchor id="Pg067"/>
+
+<sp>
+<speaker>Alice.</speaker><p>Mrs. Knickerbocker, if you please.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Well, Mrs. Knickerbocker&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Why, Knickerbocker, you have thriven well of late.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>I belong to the corporation, and we must
+support our corporation as well as it. But not a word about
+the pig, as the butchers have it, when you were a little boy, and
+Alice courting me.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>I court you, sirrah? what mean you?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Sirrah! Mr. Knickerbocker, if you please.
+Why, then, deary&mdash;we didn't like anyone to intrude on our
+society; do you take the hint? as the gamblers have it. Come
+along, Alice&mdash;Mrs. Knickerbocker, I would say&mdash;let us leave the
+lovers to themselves.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Again they meet, and sweet's the love that meets
+return.
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Exeunt</hi> <name>Knickerbocker</name> <hi rend='italic'>and</hi> <name>Alice,</name> <hi rend='italic'>singing in concert</hi>, <q>Again they meet.</q>
+</p>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>My dear Lorrenna, why this dejected look?&mdash;It
+is your own Gustaffe enfolds you in his arms.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Alas! I am no longer worthy of your love,&mdash;your
+friendship. A fatal bond extracted from my lamented
+father has severed us forever&mdash;I am devoid of fortune.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Lorrenna, you have been the star that has guided
+my bark,&mdash;thee, my compass&mdash;my north pole,&mdash;and when the
+magnet refuses its aid to the seaman, then will he believe that
+you have foundered in affection, or think that I would prove
+faithless from the loss of earthly pittance.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Shoals,&mdash;to speak in your nautical language&mdash;have
+long, on every side, surrounded me; but, by my kind uncle's
+advice, must we be guided.                               [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A2S2"/>
+</div>
+
+<div id="A2S3">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE III.</head>
+<p>
+<hi rend='italic'>The Town of</hi> <name>Rip's</name> <hi rend='italic'>nativity, instead of the Village as
+presented in first scene of the drama.&mdash;It is now a populous and
+flourishing settlement.&mdash;On the spot where</hi> <name>Rory's</name> <hi rend='italic'>tap-house
+formerly stood, is a handsome hotel, and the sign of</hi> <q>George III</q>
+<hi rend='italic'>is altered into that of</hi> <q>George Washington.</q> <hi rend='italic'>A settee in front,
+with table.&mdash;The harbour is filled with shipping.&mdash;Music at the
+opening of the scene.</hi>
+</p>
+
+<sp>
+<speaker>Seth</speaker><p>[<name>Slough</name>,]<note place="end">In K., <q>Kilderkin.</q></note> <hi rend='italic'>the landlord, enters from the Hotel.&mdash;Loud shouts.</hi>
+</p>
+</sp>
+
+<pb n="068"/><anchor id="Pg068"/>
+
+<sp>
+<speaker>Seth.</speaker><p>Well, I reckon the election's about bustin' up. If that
+temperance feller gets in I'm bound to sell out; for a rum-seller
+will stand no more chance with him than a bob-tail cow in fly
+time.&mdash;[<hi rend='italic'>Laugh.</hi>]&mdash;Hollo! who is this outlandish critter? he looks
+as if he had been dead for fifty years and was dug up to vote
+against the temperance ticket.&mdash;
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.&mdash;Enter</hi> <name>Male</name> <hi rend='italic'>and</hi> <name>Female Villagers</name>, <hi rend='italic'>laughing.<note place="end">In K., <q><hi rend='italic'>and pointing at</hi> <name>Rip</name>, <hi rend='italic'>who comes</hi> on.</q></note>&mdash;Enter</hi>
+<name>Rip</name>,&mdash;<hi rend='italic'>they gather round him.</hi>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>Where I was I wonder? my neiber frints, <q>knost you ty spricken?</q><note place="end">In K., <q>Vhere I was I wonder? my kneiber freunds, sprechen sie deutsch?</q></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Villagers.</speaker><p>Ha, ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>1st Villager.</speaker><p>I say, old feller, you ain't seed nothing of no
+old butter firkin with no kiver on, no place about here?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>No butter firkin mit no kiver no place, no I ain't seen
+him.
+</p>
+</sp>
+
+<sp>
+<speaker>Villagers.</speaker><p>Ha, ha, ha!
+</p>
+</sp>
+
+<sp>
+<speaker>1st Villager.</speaker><p>Who's your barber?&mdash;[<hi rend='italic'>Strokes his chin.&mdash;All
+laugh and exeunt.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I can't understand dis: everything seems changed.&mdash;[<hi rend='italic'>Strokes
+his chin.</hi>]&mdash;Why, I'm changed too; why, my beard's as
+long as a goat's.
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>[<hi rend='italic'>Coming down.</hi>] Look here, old sucker, I guess you had
+better go home and get shaved.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>My old woman will shave me when I gets home! Home,
+where is my home? I went to the place where it used to was, and
+it wasn't dere. Do you live in Catskill?
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>Well, I rather guess I dus&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Do you know where I live?
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>Well, to look at you, I should think you didn't live
+nowhere in particular, but stayed round in spots.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>You live in Catskill?
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>Certain.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>You don't know dat I belong here?
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>No, I'm darned if I do. I should say you belonged to
+Noah's ark&mdash;-
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Did you never hear in Catskill of one Rip Van Winkle?
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>What, Rip Van Winkle, the greatest rum-sucker in
+the country?
+</p>
+</sp>
+
+<pb n="069"/><anchor id="Pg069"/>
+
+<sp>
+<speaker>Rip.</speaker><p>Dat is a fact&mdash;dat is him! ha! ha! now we shall see.
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>Oh, yes, I've heard of him; the old coon's been dead
+these twenty years.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Den I am dead and dat is a fact. Well, poor Rip is
+dead. I'm sorry for dat.&mdash;Rip was a goot fellow.
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>I wish there was a whole grist just like him in Catskill.
+Why, they say he could drink rum enough in one day to swim
+in.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Don't talk so much about rum; you makes me so dry as
+never was.
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>Hold on a spell then, and I'll fetch you something to
+wet your whistle.           [<hi rend='italic'>Exit into house.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Why, here is another change! dis was Rory's house last night, [<name>Seth</name> <hi rend='italic'>re-enters.</hi>] mit de sign of George the Third.
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>[The alteration of my sign is no bad sign for the
+country, I reckon.]<note place="end">Not in K.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>[<hi rend='italic'>Reading.</hi>] <q>George Washington,</q>&mdash;who is he? [I remember
+a shoot of dat name, dat served under Braddock, before I
+went to sleep.
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>[<hi rend='italic'>Giving him jug.</hi>] Well, if you've been asleep I guess he
+ar'n't: his enemies always found him wide awake and kicking;
+and that shoot, as you call him, has planted the tree of liberty so
+everlasting tight in Yankeeland, that all the kingdoms of the
+earth can't root it out.]<note place="end">Not in K. After <q>who is he,</q> read, <q>I do not know him, but&mdash;</q> and continue with next Rip speech.</note>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Well, here is General Washington's goot health, and his
+family's goot health, ant may dey all live long ant prosper.
+So poor Rip Van Winkle is dead, eh? [Now comes de poser;]<note place="end"><q>But, now, I'm going to ask a ticklish question</q> in K. This speech is in dialect in K.</note>
+if Rip is dead, [what has become of his old woman?]<note place="end">
+<lg>
+<l>In K., <q>is his old voman dead too?</q></l>
+<l><name>Seth.</name> No. She's alive and kicking.</l>
+<l><name>Rip.</name> Kicking&mdash;yes, she always vas dat.</l>
+<l><name>Seth.</name> And she's married agin.</l>
+<l><name>Rip.</name> She's done what agin?</l>
+<l><name>Seth.</name> She's got a second husband.</l>
+<l><name>Rip.</name> Second husband!&mdash;I pities the poor creetur. But there vas&mdash;vill you tell me, my friend&mdash;</l>
+<l><name>Seth.</name> I can't stop any longer, because&mdash;</l>
+</lg></note>
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>She busted a blood-vessel swearing at a Yankee pedlar,
+and has gone to kingdom come long ago.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>De old woman dead too? den her clapper is stopped at
+last. [<hi rend='italic'>Pause.</hi>] So de old woman is dead; well, she led me a hard
+<pb n="070"/><anchor id="Pg070"/>
+life&mdash;she was de wife of my bosom, she was mine frow for all dat.
+[<hi rend='italic'>Whimpering.</hi>] I'm dead too, unt dat is a fact. Tell me my frient&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Seth.</speaker><p>I can't stop any longer&mdash;the polls are almost closing,
+and I must spread the game for the boys. Hurrah, for rum
+drinking and cheap licence for the retailers! that's my ticket.
+[<hi rend='italic'>Re-enter</hi> <name>Villagers</name>, <hi rend='italic'>shouting.</hi>]<note place="end">In K., the stage directions are, <q><name>Villagers</name> <hi rend='italic'>hurry on, shouting.</hi></q></note> Here, boys, see what you can
+make of this old critter.&mdash;I give him up for the awfulest specimen
+of human nature in the States.                                                [<hi rend='italic'>Exit into house.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>2d Villager.</speaker><p>Are you a Federal or a Democrat?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Fiddle who? damn who's cat?
+</p>
+</sp>
+
+<sp>
+<speaker>2d Villager.</speaker><p>What's your politics?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Oh, I am on de safe side dere; I am a faithful subject of
+King George!
+</p>
+</sp>
+
+<sp>
+<speaker>2d Villager.</speaker><p>He's a Tory! Kill him! Duck him!
+</p>
+</sp>
+
+<sp>
+<speaker>Villagers.</speaker><p>[To the horse pond! Duck him.]<note place="end">In K., read, <q>Duck him&mdash;duck him.</q></note>
+</p>
+</sp>
+
+<p>
+<hi rend='italic'>Music.&mdash;They seize</hi> <name>Rip</name> <hi rend='italic'>and are about hurrying him off when</hi>
+<name>Gustaffe</name> <hi rend='italic'>rushes in and throws them off.</hi><note place="end">In K., read, <q><hi rend='italic'>Music. All are rushing on</hi> <name>Rip.</name>&mdash;<name>Gustave</name> <hi rend='italic'>enters.</hi></q></note>
+</p>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Stand back, [cowards.]<note place="end">
+<lg>
+<l>In K., read, are you not ashamed&mdash;a score of you to attack a single man?</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Yes. I am a single man&mdash;now my vife is marry agin; dat is a fact!</l>
+<l>From this point, the two plays differ so that what remains in Kerr is here reproduced.</l>
+<l><name>Gustave.</name> And a poor old, gray-haired man.</l>
+<l><name>Rip.</name> Yes, I am poor, dat is a fact; but I know I'm not old, and I can't be gray-haired.</l>
+<l><name>Gustave.</name> Take yourselves off! What cause had you given them to attack you?</l>
+<l rend="action"><name>Villagers</name> <hi rend='italic'>sneak off.</hi></l>
+<l><name>Rip.</name> I don't know&mdash;do you?</l>
+<l><name>Gustave.</name> [<hi rend='italic'>Smiling.</hi>] How should I&mdash;</l>
+<l><name>Rip.</name> I say&mdash;vhere do I live?</l>
+<l><name>Gustave.</name> Don't you know?</l>
+<l><name>Rip.</name> I'm stewed fun I does. But, young man, you seems to know somezing, so, perhaps you knows Rip Van Winkle?</l>
+<l><name>Gustave.</name> Young Rip Van Winkle&mdash;I should think I do.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Here is von vhat knows me! dat is goot!</l>
+<l><name>Gustave.</name> I only wish his father hadn't gone away and died, twenty years ago.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] His fader! Ah! he means my young Rip, and I'm dead myself arter all&mdash;dat is a fact.</l>
+<l><name>Gustave.</name> Poor old Rip Van Winkle&mdash;perhaps you know his daughter?</l>
+<l><name>Rip.</name> His daughter&mdash;yes, I tink I&mdash;and she is not dead, like her fader?</l>
+<l><name>Gustave.</name> No, thank heaven! and she would have been my wife before this but for&mdash;</l>
+<l><name>Rip.</name> But for what, young man?</l>
+<l rend="action"><hi rend='italic'>Enter</hi> <name>Lowena.</name></l>
+<l><name>Lowena.</name> Gustave.         [<hi rend='italic'>Moving to him.</hi></l>
+<l><name>Gustave.</name> Ah! dear Lowena!</l>
+<l><name>Rip.</name> Lowena! Ah! dat is my daughter&mdash;and I have a son too, a lublicka boy; but my daughter is a girl, and I always lub my leetle girl so much, ven she vas only so big&mdash;and I must not hug her now to my poor heart, because she&mdash;she has got another fader&mdash;and I am dead&mdash;yes, dey all tell me dat is a fact! I am dead to meinself and&mdash;and I am dead to my leetle girl.</l>
+<l><name>Lowena.</name> Oh, yes, Gustave, it is indeed a sad misfortune for us both, that my father should have entered into a contract which had for its object to coerce me into becoming the wife of Herman Van Slaus.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Yes, dat is a fact. I remember, de burgomaster come to my house last night mit a paper, and I wrote my name down on it; but I vas trunk.</l>
+<l><name>Gustave.</name> And having loved you so long, is it now impossible that you can become my wife?</l>
+<l><name>Lowena.</name> No, not impossible; but&mdash;oh, my poor dear father, if you had but survived to see this day!</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] I wish what I had&mdash;but I am dead, dat is a fact.</l>
+<l rend="action"><hi rend='italic'>Enter</hi> <name>Herman Van Slaus.</name></l>
+<l><name>Lowena.</name> Oh, Gustave! see, protect me from that wicked man&mdash;I will be thine, and only thine!</l>
+<l><name>Herman.</name> No, Lowena; you will be <hi rend='italic'>mine</hi>, for you will not be suffered to resign into my hands that fortune of which I covet the possession, but which would lose half its value to me if you come not with it.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Dat is young Slaus; and he is as big a tam rascal as vas his resbectable fader.</l>
+<l><name>Herman.</name> Hereafter, Lowena, I will cause you to repent that you have given a rival to the man to whom, from your very childhood, you have been pledged and bound.</l>
+<l><name>Rip.</name> Herman Van Slaus, <hi rend='italic'>you</hi> are bledged to old Nick, and vill never be redeemed.</l>
+<l><name>Herman.</name> Who is this miserable old wretch?</l>
+<l><name>Gustave.</name> I would kill you sooner than you should become the husband of my heart's adored.</l>
+<l rend="action"><hi rend='italic'>Enter</hi> <name>Knickerbocker</name> <hi rend='italic'>and</hi> <name>Alice.</name></l>
+<l><name>Knickerbocker.</name> So, there you are, Master Herman, sticking to your rascally work like a crab to its shell, as fishmongers have it.</l>
+<l><name>Alice.</name> I should like to throw him into a saucepan of boiling water till he was done to rags.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Dat is my sister Alice&mdash;and dat is Knickerbocker&mdash;how fat they both is got since last night! What great big suppers they must have eat!</l>
+<l><hi rend='italic'>Enter</hi> <name>Nicholas Vedder</name> <hi rend='italic'>and</hi> <name>Dame Vedder.</name></l>
+<l><name>Dame.</name> Oh, do try if you cannot save my poor girl!</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Tonner unt blitzen! dat is mein frau! [<hi rend='italic'>Retreating.</hi>] No, no! I forget&mdash;she not is mine frau now!                    [<hi rend='italic'>Chuckles.</hi></l>
+<l><name>Dame.</name> Let him take half the fortune and&mdash;</l>
+<l><name>Vedder.</name> What is that you observe?</l>
+<l><name>Dame.</name> Nothing&mdash;nothing!</l>
+<l><name>Vedder.</name> Then don't observe it any more.</l>
+<l><name>Dame.</name> I&mdash;I only&mdash;</l>
+<l><name>Vedder.</name> [<hi rend='italic'>Shouting.</hi>] Silence!</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Dat is goot! [<hi rend='italic'>Laughing.</hi>] Mine frau have caught a Tartar. De second one make her pay for de virst. Ha, ha, ha! I'm stewed fun dat is a fact!</l>
+<l><name>Herman.</name> Nicholas Von Vedder, say&mdash;[<hi rend='italic'>Producing paper.</hi>]&mdash;is this contract to be fulfilled?</l>
+<l><name>Vedder.</name> Certainly. Lowena, the time for trifling is past; you have delayed until the very last hour, and must now at once consent to become Herman's wife.</l>
+<l><name>Lowena.</name> Never! Welcome poverty, if I may be wealthy only with that man for my husband. Whatever privations I may be made to endure, I shall not repine; for he whom I love will share them with me.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Dat is mine own girl, I vill swear to dat.</l>
+<l><name>Gustave.</name> I am poor, Lowena, but my love will give me courage to toil manfully, and heaven will smile upon my efforts and enable me to replace that fortune which, for my sake, you so readily sacrifice.</l>
+<l><name>Herman.</name> Well, be it as you will. This document gives me a claim which may not be evaded. [<hi rend='italic'>Reads.</hi>] <q>We, Deidrich Van Slous, Burgomaster, and Rip Van Winkle, desirous of providing for the prosperity of our offspring, do hereby mutually agree that Herman Van Slous, and Lowena Van Winkle, shall be united on the demand of either. Whosoever of those contracted fails in fulfilling the agreement shall forfeit their fortune to the party complaining.&mdash;Rip Van Winkle&mdash;Deidrich Van Slous.</q></l>
+<l><name>Rip.</name> [<hi rend='italic'>Aside.</hi>] Yes, dat is a fact&mdash;I remember dat baber, and I've got him somevheres.                       [<hi rend='italic'>Feels in his pockets.</hi></l>
+<l><name>Vedder.</name> Lowena, I command that you consent to become Herman's wife&mdash;I will not suffer that your fortune be sacrificed to&mdash;</l>
+<l><name>Herman.</name> And here is the now useless codicil.</l>
+<l><name>Rip.</name> [<hi rend='italic'>Advancing, paper in hand.</hi>] Let me read it. [<hi rend='italic'>All turn amazedly towards him.</hi>] <q>Should the said Rip Van Winkle tink fit to annul dis contract vithin twenty years and a day, he shall be at full liberty to do so.</q></l>
+<l><name>Herman.</name> How came you by that document?</l>
+<l><name>Rip.</name> You see I've got it, and dat is a fact.</l>
+<l><name>Herman.</name> Who gave it to you?</l>
+<l><name>Rip.</name> Your old blackguard of a fader.</l>
+<l><name>Dame.</name> Oh, you are&mdash;you are&mdash;</l>
+<l><name>Rip.</name> Yes, I am&mdash;I am Rip Van Winkle! [<hi rend='italic'>All start.</hi>&mdash;<name>Dame</name>, <hi rend='italic'>with a loud scream, falls into</hi> Knickerbocker's <hi rend='italic'>arms.</hi>] Dere! for de first time in my life, I have doubled up my old woman!</l>
+<l rend="action"><name>Knickerbocker</name> <hi rend='italic'>carries off</hi> <name>Dame.</name></l>
+<l><name>Lowena.</name> Oh, it is my father&mdash;my dear, dear father! [<hi rend='italic'>Runs into his arms.</hi></l>
+<l><name>Rip.</name> Yes, and you are mein taughter, my darling dat I always was love so! Oh, bless your heart, how you have grown since last night as you was a little girl.</l>
+<l><name>Alice.</name> [<hi rend='italic'>Embracing him.</hi>] Oh, my poor dear brother.</l>
+<l><name>Rip.</name> Yes, I tink I am your broder 'cos you is my sister.</l>
+<l rend="action"><name>Knickerbocker</name> <hi rend='italic'>returns.</hi></l>
+<l><name>Alice.</name> And here is my husband.</l>
+<l><name>Rip.</name> He is a much deal uglier, dan he used to vas before.</l>
+<l><name>Knickerbocker.</name> [<hi rend='italic'>Embracing him.</hi>] My blessed brother-in-law.</l>
+<l><name>Vedder.</name> Ah! and now you have come back, I suppose you want your wife!</l>
+<l><name>Rip.</name> No, I'll be tam if I do! You've got her, and you keep her&mdash;I von't never have her no more.</l>
+<l><name>Vedder.</name> I sha'n't have her&mdash;I have done with her, and glad to be rid of her.                                                              [<hi rend='italic'>Exit.</hi></l>
+<l><name>Rip.</name> Ha, ha! Then my poor frau is a vidder, with two husbands, an' she ain't got none at all.</l>
+<l><name>Herman.</name> It is Rip Van Winkle, and alive!</l>
+<l><name>Rip.</name> Yes, and to the best of my belief, I have not never been dead at all.</l>
+<l><name>Herman.</name> And I am left to poverty and despair.        [<hi rend='italic'>Exit.</hi></l>
+<l><name>Rip.</name> And serve you right too&mdash;I'm stewed fun dat is fact. [<hi rend='italic'>Looking round.</hi>] But I had a leetle boy, last night&mdash;vhere is my young baby boy, my leetle Rip?</l>
+<l><name>Alice.</name> I saw him just now&mdash;oh, here he is.</l>
+<l rend="action"><hi rend='italic'>Enter, young Rip Van Winkle, a very tall young man.</hi></l>
+<l><name>Rip.</name> Is dat my leetle baby boy? How he is grown since last night. Come here, you young Rip. I am your fader. Vell, he is much like me&mdash;he is a beautiful leetle boy.</l>
+<l><name>Knickerbocker.</name> But tell us, Rip, where have you hid yourself for the last twenty years?</l>
+<l><name>Rip.</name> Ech woll! ech woll! Vhen I take mine glass, I vill tell mine strange story, and drink the health of mine friends&mdash;and, ladies and gentlemen, I will drink to your good hells and your future families, and may you all&mdash;and may Rip Van Winkle too&mdash;live long and brosber.</l>
+<l rend="action"><hi rend='italic'>Curtain.</hi></l>
+</lg></note>
+</p>
+</sp>
+
+<pb n="072"/><anchor id="Pg072"/>
+
+<sp>
+<speaker>Omnes.</speaker><p>Cowards!
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Yes, cowards! who but cowards would rush in
+numbers one grey-haired man?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yah, yah, dat's a fact!
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Sheer off! you won't? then damme, here's at ye.
+[<hi rend='italic'>Drives them off.</hi>] Tell me, old man, what cause had you given
+them to attack you?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I don't know; do you?
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>You appear bewildered: can I assist you?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Just tell me where I live, dat's all I want to know.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>And don't you know?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>I'm d&mdash;&mdash;d fun I does.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>What is your name?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Why, I was Rip Van Winkle.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Rip Van Winkle? impossible!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Well, I won't swear to it myself.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Stay,&mdash;you have a daughter?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>To be sure I has: a pretty little girl about so old&mdash;Lorrenna;
+and I have a son too, a lublicka boy, but my daughter is a girl.
+</p>
+</sp>
+
+
+<pb n="073"/><anchor id="Pg073"/>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Do you remember entering into a contract,
+binding your daughter to marry Herman Van Slaus?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Oh! I remember, de burgomaster came to my house last
+night mit a paper, and I wrote my name down on it, but I was
+drunk.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Last night! His brain wanders: yet it must be he;
+come, come with me, old man.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Where are you going to take me to?
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Your daughter.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Yes, yes, take me to my child. Stop, my gracious!&mdash;I
+am so changed,&mdash;suppose she should forget me too; no, no,
+she can't forget her poor father. Come, come!                                              [<hi rend='italic'>Exeunt.</hi>
+</p>
+</sp>
+<p rend="bold">Footnotes</p>
+<divGen type="endnotes" target="A2S3"/>
+</div>
+
+<div id="A2S4">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE IV.</head>
+<p>
+<name>Knickerbocker's</name> <hi rend='italic'>House as before.</hi>
+</p>
+
+<p rend="action">
+<name>Knickerbocker</name>, <name>Alice</name> <hi rend='italic'>and</hi> <name>Lorrenna</name> <hi rend='italic'>enter.</hi>
+</p>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Give me joy, dears; I'm elected unanimously&mdash;elected
+a member of the Legislature.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Why, spouse!
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Mr. Knickerbocker, if you please, my dear;
+damme! I'm so happy I could fly to the moon, jump over a
+steeple, dance a new fandango on stilts. [<hi rend='italic'>Dances.</hi>] Fal, lal, la.
+</p>
+</sp>
+
+<p rend="action"><hi rend='italic'>Enter</hi> <name>Herman.</name>
+</p>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Well, sir, what the devil do you want?
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>I came to claim this lady's fortune or her hand.
+</p>
+</sp>
+
+<pb n="074"/><anchor id="Pg074"/>
+
+<sp>
+<speaker>Alice.</speaker><p>Knock him down, spouse.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Mr. Knickerbocker, my dear.
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Oh, bother! I know if he comes near my niece,
+woman as I am, I'll scratch his eyes out.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Mr. Knickerbocker.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>The honourable member from &mdash;&mdash;
+County, if you please.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>The judge of the district will this day arrive and
+give judgement on my appeal: my rights are definitive, and I
+question the whole world to controvert them. We shall meet
+before the tribunal; then presume to contend longer if you dare.                                                [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>'Twill be difficult, no doubt, but we'll
+have a wrangle for the bone, as the dog's have it; there will be no
+curs found in our party, I'll be sworn. [<hi rend='italic'>Aside.</hi>] Hang me, but
+I'm really a little chop fallen and there is a strange sense of
+dizziness in my head which almost overcomes me.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>My dear uncle, what is to be done in this emergency?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Done! your fortune is done for: but if you
+ever want a cent whilst I have one, may I be sent to the devil,
+that's all.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>[<hi rend='italic'>Entering.</hi>] Bravo! Nunkey Knickerbocker! you
+are no blind pilot. Awake to breakers and quicksand, Knickerbocker.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Knickerbocker! the honourable Mr. Knickerbocker,
+if you please; I'm now a member of the Legislature
+and, curse me, if I'd change my dignified station as representative
+of an independent people, for that of the proudest potentate
+who holds supremacy by corruption or the bayonet. [<hi rend='italic'>Exeunt.</hi>
+</p>
+</sp>
+</div>
+
+<div id="A2S5">
+<index index="toc" />
+<index index="pdf" />
+<head>
+SCENE LAST.</head>
+
+<p>
+<hi rend='italic'>The Court House.&mdash;An arm-chair at the back, in
+front of which is a large table, covered with baize.&mdash;On each side
+a gallery.&mdash;On the right of table are chairs.</hi>
+</p>
+
+<p>
+<hi rend='italic'>Music.&mdash;The</hi> <name>Judge</name> <hi rend='italic'>discovered, seated.&mdash;The galleries filled with
+auditors</hi>.&mdash;<name>Herman.</name>&mdash;<name>Knickerbocker.</name>
+</p>
+
+<sp>
+<speaker>Judge.</speaker><p>Mr. Knickerbocker, you will please to bring your
+client into court.
+</p>
+</sp>
+
+<p rend="action">
+<name>Knickerbocker</name> <hi rend='italic'>goes off, and returns with</hi> Lorrenna <hi rend='italic'>and</hi>
+<name>Alice.</name>
+</p>
+
+<pb n="075"/><anchor id="Pg075"/>
+
+<sp>
+<speaker>Judge.</speaker><p>Be pleased to let your ladies take seats.
+                          [<name>Lorrenna</name> <hi rend='italic'>and</hi> <name>Alice</name> <hi rend='italic'>sit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>And now, sir, I presume 'tis time to enter on my
+cause. Twenty years have elapsed since this contract, this bond
+was signed by the father of that lady, by which she or her fortune
+were made mine. Be pleased to peruse. [<hi rend='italic'>Presenting the document
+to the</hi> <name>Judge.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>[<hi rend='italic'>Reading.</hi>] <q rend="post:none">We, Derric Van Slaus, Burgomaster, and
+Rip Van Winkle, desirous of providing for the prosperity of our
+offspring, do hereby mutually agree that Herman Van Slaus and
+Lorrenna Van Winkle shall be united on the demand of either.
+Whosoever of those contracted, fails in fulfilling this agreement,
+shall forfeit their fortune to the party complaining.</q>
+</p>
+
+<lg rend="right">
+<l><q>Rip Van Winkle</q></l>
+<l><q>Derric Van Slaus.</q></l>
+</lg>
+
+<p>
+But here's a codicil. <q>Should the said Rip Van Winkle think fit
+to annul this contract within twenty years and a day, he shall be
+at full liberty to do so.  (Signed) Derric Van Slaus.</q>
+The document is perfect in every form. Rip Van Winkle, 'tis
+stated, is defunct. Is there any one present to prove his signature?
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Mr. Knickerbocker, if he dare be honest, will
+attest it.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Dare be honest, sir! presume you to question
+my veracity? How was that bond obtained?
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Why should you ask? The late Rip Van Winkle,
+anxious for the prosperity of his offspring, though too indolent
+to provide for their subsistence, persuaded my deceased father
+to form this alliance.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>It's a lie! Hum!&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>Restrain this violence! a court of justice must not be
+swayed by such proceedings.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Behold! sir, a picture of their general effrontery.
+In a public tribunal to threaten those, who, in pleading their own
+rights, but advocate the cause of justice.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>[<hi rend='italic'>Comes down stage.</hi>] All my hopes vanish&mdash;bleak
+and dreary is the perspective.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>[<hi rend='italic'>Advances.</hi>] At last I triumph! Now, lady, your
+hand or your inheritance.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>My hand! never! Welcome were every privation
+to an union with one so base.
+</p>
+</sp>
+
+
+<pb n="076"/><anchor id="Pg076"/>
+
+<sp>
+<speaker>Judge.</speaker><p>It appears, then, that this signature is not denied by
+the defendant, and in that case the contract must stand in full
+force against her.
+</p>
+</sp>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>Oh, Alice, take me home: poverty, death, anything
+rather than wed the man I cannot love.                             [<hi rend='italic'>She is led off by</hi> <name>Alice.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Why, damn it, Judge!
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>Mr. Knickerbocker!
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>I beg pardon, I meant no disrespect to the
+court, but I had thought after&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>I have decided, Mr. Knickerbocker.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Oh! you have decided. Yes, and a damned
+pretty mess you've made of it. But I sha'n't abide by your
+decision; I'll appeal to a higher court. I am now a member of the
+Legislature, and if they allow such blocks as you on the bench,
+I'll have a tax upon timber, sir&mdash;yes, sir, a tax upon timber.                                          [<hi rend='italic'>Exit, in a rage.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>Twenty years and a day is the period within which the
+contract could be cancelled by the negature of Rip Van Winkle, and
+as he has rendered no opposition during this lengthened time&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>'Tis not very probable, sir, that he will alter his
+intentions by appearing to do so within the few brief hours that
+will complete the day. Can the grave give up its inmates?
+No, no! Who dare pretend to dispute my rights? The only one
+who could do so has been dead these twenty years.
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Gustaffe</name> <hi rend='italic'>and</hi> <name>Rip.</name>
+</p>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>'Tis false! Rip Van Winkle stands before you!
+</p>
+</sp>
+
+<sp>
+<speaker>Omnes.</speaker><p>Rip Van Winkle!
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>You, Rip Van Winkle! Van Winkle come back
+after such a lapse of time? Impossible!
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Nothing at all impossible in anything Rip Van Winkle
+undertakes, and, though all of you are in the same story, dat he
+has been gone so long, he is nevertheless back soon enough, to
+your sorrow, my chap.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>If this, indeed, be Rip Van Winkle, where has he
+hid himself for twenty years?
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>What answer do you make to this?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Why, dat I went up in de mountains last night, and got
+drunk mit some jolly dogs, and when I come back dis morning
+I found myself dead for twenty years.
+</p>
+</sp>
+
+
+<pb n="077"/><anchor id="Pg077"/>
+
+<sp>
+<speaker>Herman.</speaker><p>You hear him, sir.
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>This is evidently an impostor; take him into custody.
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>Stay! delay your judgement one moment till I
+bring the best of proofs&mdash;his child and sister. [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>If you are Rip Van Winkle, some one here would
+surely recognize you.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>To be sure dey will! every one knows me in Catskill.
+[<hi rend='italic'>All gather round him and shake their heads.</hi>] No, no, I don't
+know dese peoples&mdash;dey don't know me neither, and yesterday
+dere was not a dog in the village but would have wagged his
+tail at me; now dey bark. Dere's not a child but would have
+scrambled on my knees&mdash;now dey run from me. Are we so soon
+forgotten when we're gone? Already dere is no one wot knows
+poor Rip Van Winkle.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>So, indeed, it seems.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>And have you forgot de time I saved your life?
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Why, I&mdash;I&mdash;I&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>In course you have! a short memory is convenient for
+you, Herman.
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>[<hi rend='italic'>Aside</hi>] Should this indeed be he! [<hi rend='italic'>Aloud.</hi>] I demand
+judgement.
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>Stay! If you be Rip Van Winkle you should have a
+counterpart of this agreement. Have you such a paper?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Paper! I don't know; de burgomaster gave me a paper
+last night. I put it in my breast, but I must have loosed him.
+No, no&mdash;here he is! here is de paper! [<hi rend='italic'>Gives it to</hi> <name>Judge</name>, <hi rend='italic'>who
+reads it.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Judge.</speaker><p>'Tis Rip Van Winkle! [<hi rend='italic'>All gather round and shake
+hands with him.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Oh! everybody knows me now!
+</p>
+</sp>
+
+<sp>
+<speaker>Herman.</speaker><p>Rip Van Winkle alive! then I am dead to fortune
+and to fame; the fiends have marred my brightest prospects, and
+nought is left but poverty and despair.     [<hi rend='italic'>Exit.</hi>
+</p>
+</sp>
+
+<sp>
+<speaker>Gustaffe.</speaker><p>[<hi rend='italic'>Without.</hi>] Room there! who will keep a child from
+a long lost father's arms?
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Gustaffe</name>, <hi rend='italic'>with</hi> <name>Lorrenna</name>, <name>Alice</name> <hi rend='italic'>and</hi> <name>Knickerbocker.</name>
+</p>
+
+<sp>
+<speaker>Lorrenna.</speaker><p>My father!           [<hi rend='italic'>Embraces</hi> <name>Rip.</name>
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Are you mine daughter? let's look at you. Oh, my child&mdash;but
+how you have grown since you was a little gal. But who
+is dis?
+</p>
+</sp>
+
+
+<pb n="078"/><anchor id="Pg078"/>
+
+<sp>
+<speaker>Alice.</speaker><p>Why, brother!&mdash;
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Alice! give us a hug. Who is dat?
+</p>
+</sp>
+
+<sp>
+<speaker>Alice.</speaker><p>Why, my husband&mdash;Knickerbocker.
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Why Knick, [<hi rend='italic'>Shakes hands.</hi>] Alice has grown as big
+round as a tub; she hasn't been living on pumpkins. But where is
+young Rip, my baby?
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>Oh, he was in the court-house just now.
+Ah! here he comes!
+</p>
+</sp>
+
+<p rend="action">
+<hi rend='italic'>Enter</hi> <name>Rip Van Winkle, Jr.</name>
+</p>
+
+<sp>
+<speaker>Rip.</speaker><p>Is dat my baby? come here, Rip, come here, you dog;
+I am your father. What an interesting brat it is.
+</p>
+</sp>
+
+<sp>
+<speaker>Knickerbocker.</speaker><p>But tell us, Rip, where have you hid yourself
+for the last twenty years?
+</p>
+</sp>
+
+<sp>
+<speaker>Rip.</speaker><p>Ech woll&mdash;ech woll. I will take mine glass and tell mine
+strange story and drink the health of mine frients. Unt, ladies
+and gents, here is your goot health and your future families and
+may you all live long and prosper.
+</p>
+</sp>
+
+<p rend="center; smallcaps">
+THE END.
+</p>
+</div>
+</div>
+</div>
+</div>
+        </body>
+        <back>
+<div rend="page-break-before: right">
+<index index="toc" />
+<index index="pdf" />
+<head>Transcribers' Notes</head>
+<p>The following substitutions were applied to the text by
+Project Gutenberg proofers and transcribers&mdash;</p>
+<p>On page <ref target="Pg043">43</ref>, Rory speaking:
+<eg>
+though, for its full of emptiness.&mdash;Ha, ha, ha!
+though, for it's full of emptiness.&mdash;Ha, ha, ha!
+</eg>
+</p>
+<p>In the long footnote on page <ref target="Pg062">62</ref>, Dame speaking:
+<eg>
+Her's will break if she is compelled to&mdash;
+Hers will break if she is compelled to&mdash;
+</eg>
+</p>
+</div>
+    <div rend="page-break-before: right">
+      <divGen type="pgfooter" />
+    </div>
+        </back>
+    </text>
+</TEI.2>
