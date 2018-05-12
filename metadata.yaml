@@ -1,0 +1,28 @@
+_repo: Representative-Plays-by-American-Dramatists--1856-1911--Rip-vanWinkle_27552
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Burke, Charles
+    birthdate: 1822
+    deathdate: 1854
+    gutenberg_agent_id: '32769'
+    url: http://www.gutenberg.org/2009/agents/32769
+description: ''
+gutenberg_issued: '2007-12-18'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '27552'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PS'
+- !lcsh 'American drama'
+title: 'Representative Plays by American Dramatists: 1856-1911: Rip van
+
+  Winkle'
+url: http://www.gutenberg.org/ebooks/27552
