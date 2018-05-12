@@ -11,6 +11,8 @@ creator:
     gutenberg_agent_id: '32769'
     url: http://www.gutenberg.org/2009/agents/32769
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/27552#Representative-Plays-by-American-Dramatists--1856-1911--Rip-vanWinkle
 gutenberg_issued: '2007-12-18'
 gutenberg_type: Text
 identifiers:
